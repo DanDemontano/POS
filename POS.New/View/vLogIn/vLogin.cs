@@ -25,7 +25,6 @@ namespace POS.New.View.vLogIn
         {
             if (txtUsername.Text == "admin" && txtPass.Text == "12345")
             {
-                MessageBox.Show("Correct");
                 vMainMenu vMainMenu = new vMainMenu();
                 this.Hide();
                 vMainMenu.Show();
@@ -33,7 +32,7 @@ namespace POS.New.View.vLogIn
 
             else
             {
-                MessageBox.Show("Incorrect");
+                MessageBox.Show("Incorrect Password or Username");
             }  
         }
     }
