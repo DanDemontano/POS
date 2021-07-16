@@ -29,35 +29,21 @@
         private void InitializeComponent()
         {
             this.visualStudio2012LightTheme1 = new Telerik.WinControls.Themes.VisualStudio2012LightTheme();
-            this.panMain = new Telerik.WinControls.UI.RadPanel();
             this.txtUsername = new Telerik.WinControls.UI.RadTextBox();
             this.txtPass = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.btnLogin = new Telerik.WinControls.UI.RadButton();
-            ((System.ComponentModel.ISupportInitialize)(this.panMain)).BeginInit();
-            this.panMain.SuspendLayout();
+            this.z = new Telerik.WinControls.UI.RadPanel();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsername)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.z)).BeginInit();
+            this.z.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panMain
-            // 
-            this.panMain.Controls.Add(this.btnLogin);
-            this.panMain.Controls.Add(this.radLabel2);
-            this.panMain.Controls.Add(this.radLabel1);
-            this.panMain.Controls.Add(this.txtPass);
-            this.panMain.Controls.Add(this.txtUsername);
-            this.panMain.Location = new System.Drawing.Point(114, 40);
-            this.panMain.Name = "panMain";
-            this.panMain.Size = new System.Drawing.Size(495, 205);
-            this.panMain.TabIndex = 0;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panMain.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panMain.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             // 
             // txtUsername
             // 
@@ -70,6 +56,7 @@
             // 
             this.txtPass.Location = new System.Drawing.Point(247, 122);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '●';
             this.txtPass.Size = new System.Drawing.Size(196, 24);
             this.txtPass.TabIndex = 1;
             // 
@@ -93,18 +80,32 @@
             // 
             this.btnLogin.Location = new System.Drawing.Point(247, 152);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 24);
+            this.btnLogin.Size = new System.Drawing.Size(74, 24);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "&Login";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // z
+            // 
+            this.z.Controls.Add(this.txtPass);
+            this.z.Controls.Add(this.btnLogin);
+            this.z.Controls.Add(this.radLabel2);
+            this.z.Controls.Add(this.radLabel1);
+            this.z.Controls.Add(this.txtUsername);
+            this.z.Location = new System.Drawing.Point(110, 40);
+            this.z.Name = "z";
+            this.z.Size = new System.Drawing.Size(495, 205);
+            this.z.TabIndex = 0;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.z.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.z.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             // 
             // vLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(712, 287);
-            this.Controls.Add(this.panMain);
+            this.ClientSize = new System.Drawing.Size(712, 279);
+            this.Controls.Add(this.z);
             this.Name = "vLogin";
             // 
             // 
@@ -113,14 +114,14 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LogIn";
             this.ThemeName = "VisualStudio2012Light";
-            ((System.ComponentModel.ISupportInitialize)(this.panMain)).EndInit();
-            this.panMain.ResumeLayout(false);
-            this.panMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsername)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.z)).EndInit();
+            this.z.ResumeLayout(false);
+            this.z.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -129,11 +130,11 @@
         #endregion
 
         private Telerik.WinControls.Themes.VisualStudio2012LightTheme visualStudio2012LightTheme1;
-        private Telerik.WinControls.UI.RadPanel panMain;
-        private Telerik.WinControls.UI.RadLabel radLabel2;
-        private Telerik.WinControls.UI.RadLabel radLabel1;
-        private Telerik.WinControls.UI.RadTextBox txtPass;
         private Telerik.WinControls.UI.RadTextBox txtUsername;
+        private Telerik.WinControls.UI.RadTextBox txtPass;
+        private Telerik.WinControls.UI.RadLabel radLabel1;
+        private Telerik.WinControls.UI.RadLabel radLabel2;
         private Telerik.WinControls.UI.RadButton btnLogin;
+        private Telerik.WinControls.UI.RadPanel z;
     }
 }

@@ -79,7 +79,7 @@ namespace POS.New
             this.panMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panMain.Location = new System.Drawing.Point(0, 0);
             this.panMain.Name = "panMain";
-            this.panMain.Size = new System.Drawing.Size(1272, 637);
+            this.panMain.Size = new System.Drawing.Size(1272, 635);
             this.panMain.TabIndex = 1;
             // 
             // panContent
@@ -88,7 +88,7 @@ namespace POS.New
             this.panContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panContent.Location = new System.Drawing.Point(170, 35);
             this.panContent.Name = "panContent";
-            this.panContent.Size = new System.Drawing.Size(1102, 572);
+            this.panContent.Size = new System.Drawing.Size(1102, 570);
             this.panContent.TabIndex = 2;
             // 
             // rpvMenu
@@ -102,7 +102,7 @@ namespace POS.New
             this.rpvMenu.Location = new System.Drawing.Point(0, 0);
             this.rpvMenu.Name = "rpvMenu";
             this.rpvMenu.SelectedPage = this.idDashboard;
-            this.rpvMenu.Size = new System.Drawing.Size(1102, 572);
+            this.rpvMenu.Size = new System.Drawing.Size(1102, 570);
             this.rpvMenu.TabIndex = 5;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).ShowItemPinButton = false;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.None;
@@ -119,7 +119,7 @@ namespace POS.New
             this.idDashboard.ItemSize = new System.Drawing.SizeF(275F, 29F);
             this.idDashboard.Location = new System.Drawing.Point(6, 35);
             this.idDashboard.Name = "idDashboard";
-            this.idDashboard.Size = new System.Drawing.Size(1090, 531);
+            this.idDashboard.Size = new System.Drawing.Size(1090, 529);
             this.idDashboard.Text = "Dashboard";
             this.idDashboard.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -175,7 +175,7 @@ namespace POS.New
             // 
             this.panFooter.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panFooter.Location = new System.Drawing.Point(170, 607);
+            this.panFooter.Location = new System.Drawing.Point(170, 605);
             this.panFooter.Name = "panFooter";
             this.panFooter.Size = new System.Drawing.Size(1102, 30);
             this.panFooter.TabIndex = 4;
@@ -194,7 +194,7 @@ namespace POS.New
             this.panNavigationBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panNavigationBar.Location = new System.Drawing.Point(0, 0);
             this.panNavigationBar.Name = "panNavigationBar";
-            this.panNavigationBar.Size = new System.Drawing.Size(170, 637);
+            this.panNavigationBar.Size = new System.Drawing.Size(170, 635);
             this.panNavigationBar.TabIndex = 2;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
@@ -205,7 +205,7 @@ namespace POS.New
             this.btnLogOut.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnLogOut.ForeColor = System.Drawing.Color.White;
             this.btnLogOut.Image = global::POS.New.Properties.Resources.outline_logout_white_24dp;
-            this.btnLogOut.Location = new System.Drawing.Point(0, 607);
+            this.btnLogOut.Location = new System.Drawing.Point(0, 605);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnLogOut.Size = new System.Drawing.Size(170, 30);
@@ -307,7 +307,7 @@ namespace POS.New
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 637);
+            this.ClientSize = new System.Drawing.Size(1272, 635);
             this.Controls.Add(this.panMain);
             this.Name = "vMainMenu";
             // 

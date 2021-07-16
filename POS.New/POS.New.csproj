@@ -121,5 +121,11 @@
     <Folder Include="Controllers\" />
     <Folder Include="Model\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_visibility_black_18dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_visibility_off_black_18dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

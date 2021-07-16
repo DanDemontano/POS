@@ -32,10 +32,9 @@ namespace POS.New.View.vLogIn
             }
 
             else
-            
             {
                 MessageBox.Show("Incorrect");
-            }        
+            }  
         }
     }
 }
