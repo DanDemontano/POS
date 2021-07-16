@@ -25,7 +25,7 @@ namespace POS.New.View.vLogIn
         {
             if (txtUsername.Text == "admin" && txtPass.Text == "12345")
             {
-                //MessageBox.Show("Correct");
+                MessageBox.Show("Correct");
                 vMainMenu vMainMenu = new vMainMenu();
                 this.Hide();
                 vMainMenu.Show();
