@@ -54,14 +54,11 @@ namespace POS.New
             this.idOrderHistory = new Telerik.WinControls.UI.RadPageViewPage();
             this.rgvOrderHistory = new Telerik.WinControls.UI.RadGridView();
             this.idInventory = new Telerik.WinControls.UI.RadPageViewPage();
-            this.panInventoryHeader = new Telerik.WinControls.UI.RadPanel();
             this.rgvInventory = new Telerik.WinControls.UI.RadGridView();
+            this.panInventoryHeader = new Telerik.WinControls.UI.RadPanel();
             this.panHeader = new Telerik.WinControls.UI.RadPanel();
             this.panFooter = new Telerik.WinControls.UI.RadPanel();
             this.panNavigationBar = new Telerik.WinControls.UI.RadPanel();
-            this.panNavigationBarHeader = new Telerik.WinControls.UI.RadPanel();
-            this.panNavigationBarFooter = new Telerik.WinControls.UI.RadPanel();
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd = new Telerik.WinControls.RootRadElement();
             this.btnLogOut = new Telerik.WinControls.UI.RadButton();
             this.btnInventory = new Telerik.WinControls.UI.RadButton();
             this.btnOrderHistory = new Telerik.WinControls.UI.RadButton();
@@ -69,6 +66,9 @@ namespace POS.New
             this.btnDashboard = new Telerik.WinControls.UI.RadButton();
             this.btnCollapse = new Telerik.WinControls.UI.RadButton();
             this.lblTitle = new Telerik.WinControls.UI.RadLabel();
+            this.panNavigationBarHeader = new Telerik.WinControls.UI.RadPanel();
+            this.panNavigationBarFooter = new Telerik.WinControls.UI.RadPanel();
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd = new Telerik.WinControls.RootRadElement();
             ((System.ComponentModel.ISupportInitialize)(this.panMain)).BeginInit();
             this.panMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panContent)).BeginInit();
@@ -81,15 +81,13 @@ namespace POS.New
             ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory.MasterTemplate)).BeginInit();
             this.idInventory.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panInventoryHeader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rgvInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rgvInventory.MasterTemplate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panInventoryHeader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panHeader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panFooter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panNavigationBar)).BeginInit();
             this.panNavigationBar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrderHistory)).BeginInit();
@@ -98,6 +96,8 @@ namespace POS.New
             ((System.ComponentModel.ISupportInitialize)(this.btnCollapse)).BeginInit();
             this.btnCollapse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lblTitle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,7 +110,7 @@ namespace POS.New
             this.panMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panMain.Location = new System.Drawing.Point(0, 0);
             this.panMain.Name = "panMain";
-            this.panMain.Size = new System.Drawing.Size(1272, 605);
+            this.panMain.Size = new System.Drawing.Size(1272, 603);
             this.panMain.TabIndex = 1;
             // 
             // panContent
@@ -119,7 +119,7 @@ namespace POS.New
             this.panContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panContent.Location = new System.Drawing.Point(170, 35);
             this.panContent.Name = "panContent";
-            this.panContent.Size = new System.Drawing.Size(1102, 540);
+            this.panContent.Size = new System.Drawing.Size(1102, 538);
             this.panContent.TabIndex = 2;
             // 
             // rpvMenu
@@ -133,7 +133,7 @@ namespace POS.New
             this.rpvMenu.Location = new System.Drawing.Point(0, 0);
             this.rpvMenu.Name = "rpvMenu";
             this.rpvMenu.SelectedPage = this.idOrderHistory;
-            this.rpvMenu.Size = new System.Drawing.Size(1102, 540);
+            this.rpvMenu.Size = new System.Drawing.Size(1102, 538);
             this.rpvMenu.TabIndex = 5;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).ShowItemPinButton = false;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.None;
@@ -148,7 +148,7 @@ namespace POS.New
             // idDashboard
             // 
             this.idDashboard.Controls.Add(this.button2);
-            this.idDashboard.ItemSize = new System.Drawing.SizeF(275F, 25F);
+            this.idDashboard.ItemSize = new System.Drawing.SizeF(275F, 29F);
             this.idDashboard.Location = new System.Drawing.Point(6, 35);
             this.idDashboard.Name = "idDashboard";
             this.idDashboard.Size = new System.Drawing.Size(1090, 499);
@@ -167,7 +167,7 @@ namespace POS.New
             // idOrder
             // 
             this.idOrder.Controls.Add(this.button1);
-            this.idOrder.ItemSize = new System.Drawing.SizeF(275F, 25F);
+            this.idOrder.ItemSize = new System.Drawing.SizeF(275F, 29F);
             this.idOrder.Location = new System.Drawing.Point(6, 35);
             this.idOrder.Name = "idOrder";
             this.idOrder.Size = new System.Drawing.Size(1090, 501);
@@ -186,10 +186,10 @@ namespace POS.New
             // idOrderHistory
             // 
             this.idOrderHistory.Controls.Add(this.rgvOrderHistory);
-            this.idOrderHistory.ItemSize = new System.Drawing.SizeF(275F, 25F);
-            this.idOrderHistory.Location = new System.Drawing.Point(6, 31);
+            this.idOrderHistory.ItemSize = new System.Drawing.SizeF(275F, 29F);
+            this.idOrderHistory.Location = new System.Drawing.Point(6, 35);
             this.idOrderHistory.Name = "idOrderHistory";
-            this.idOrderHistory.Size = new System.Drawing.Size(1090, 503);
+            this.idOrderHistory.Size = new System.Drawing.Size(1090, 497);
             this.idOrderHistory.Text = "Order History";
             this.idOrderHistory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -230,7 +230,7 @@ namespace POS.New
             this.rgvOrderHistory.MasterTemplate.ViewDefinition = tableViewDefinition1;
             this.rgvOrderHistory.Name = "rgvOrderHistory";
             this.rgvOrderHistory.ReadOnly = true;
-            this.rgvOrderHistory.Size = new System.Drawing.Size(1090, 503);
+            this.rgvOrderHistory.Size = new System.Drawing.Size(1090, 497);
             this.rgvOrderHistory.TabIndex = 0;
             this.rgvOrderHistory.ThemeName = "VisualStudio2012Light";
             // 
@@ -238,21 +238,12 @@ namespace POS.New
             // 
             this.idInventory.Controls.Add(this.rgvInventory);
             this.idInventory.Controls.Add(this.panInventoryHeader);
-            this.idInventory.ItemSize = new System.Drawing.SizeF(275F, 25F);
+            this.idInventory.ItemSize = new System.Drawing.SizeF(275F, 29F);
             this.idInventory.Location = new System.Drawing.Point(6, 35);
             this.idInventory.Name = "idInventory";
             this.idInventory.Size = new System.Drawing.Size(1090, 499);
             this.idInventory.Text = "Inventory";
             this.idInventory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panInventoryHeader
-            // 
-            this.panInventoryHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panInventoryHeader.Location = new System.Drawing.Point(0, 0);
-            this.panInventoryHeader.Name = "panInventoryHeader";
-            this.panInventoryHeader.Size = new System.Drawing.Size(1090, 73);
-            this.panInventoryHeader.TabIndex = 1;
-            this.panInventoryHeader.ThemeName = "VisualStudio2012Light";
             // 
             // rgvInventory
             // 
@@ -295,6 +286,15 @@ namespace POS.New
             this.rgvInventory.TabIndex = 0;
             this.rgvInventory.ThemeName = "VisualStudio2012Light";
             // 
+            // panInventoryHeader
+            // 
+            this.panInventoryHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panInventoryHeader.Location = new System.Drawing.Point(0, 0);
+            this.panInventoryHeader.Name = "panInventoryHeader";
+            this.panInventoryHeader.Size = new System.Drawing.Size(1090, 73);
+            this.panInventoryHeader.TabIndex = 1;
+            this.panInventoryHeader.ThemeName = "VisualStudio2012Light";
+            // 
             // panHeader
             // 
             this.panHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
@@ -310,7 +310,7 @@ namespace POS.New
             // 
             this.panFooter.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panFooter.Location = new System.Drawing.Point(170, 575);
+            this.panFooter.Location = new System.Drawing.Point(170, 573);
             this.panFooter.Name = "panFooter";
             this.panFooter.Size = new System.Drawing.Size(1102, 30);
             this.panFooter.TabIndex = 4;
@@ -331,37 +331,10 @@ namespace POS.New
             this.panNavigationBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panNavigationBar.Location = new System.Drawing.Point(0, 0);
             this.panNavigationBar.Name = "panNavigationBar";
-            this.panNavigationBar.Size = new System.Drawing.Size(170, 605);
+            this.panNavigationBar.Size = new System.Drawing.Size(170, 603);
             this.panNavigationBar.TabIndex = 2;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // panNavigationBarHeader
-            // 
-            this.panNavigationBarHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panNavigationBarHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panNavigationBarHeader.Location = new System.Drawing.Point(0, 0);
-            this.panNavigationBarHeader.Name = "panNavigationBarHeader";
-            this.panNavigationBarHeader.Size = new System.Drawing.Size(170, 35);
-            this.panNavigationBarHeader.TabIndex = 2;
-            this.panNavigationBarHeader.ThemeName = "VisualStudio2012Light";
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarHeader.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // panNavigationBarFooter
-            // 
-            this.panNavigationBarFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panNavigationBarFooter.Location = new System.Drawing.Point(0, 575);
-            this.panNavigationBarFooter.Name = "panNavigationBarFooter";
-            this.panNavigationBarFooter.Size = new System.Drawing.Size(170, 30);
-            this.panNavigationBarFooter.TabIndex = 1;
-            this.panNavigationBarFooter.ThemeName = "VisualStudio2012Light";
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarFooter.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd
-            // 
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.Name = "object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd";
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchHorizontally = true;
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchVertically = true;
             // 
             // btnLogOut
             // 
@@ -369,7 +342,7 @@ namespace POS.New
             this.btnLogOut.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnLogOut.ForeColor = System.Drawing.Color.White;
             this.btnLogOut.Image = global::POS.New.Properties.Resources.outline_logout_white_24dp;
-            this.btnLogOut.Location = new System.Drawing.Point(0, 520);
+            this.btnLogOut.Location = new System.Drawing.Point(0, 518);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnLogOut.Size = new System.Drawing.Size(170, 55);
@@ -481,11 +454,38 @@ namespace POS.New
             this.lblTitle.Text = "Eats2Go";
             this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
+            // panNavigationBarHeader
+            // 
+            this.panNavigationBarHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panNavigationBarHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panNavigationBarHeader.Location = new System.Drawing.Point(0, 0);
+            this.panNavigationBarHeader.Name = "panNavigationBarHeader";
+            this.panNavigationBarHeader.Size = new System.Drawing.Size(170, 35);
+            this.panNavigationBarHeader.TabIndex = 2;
+            this.panNavigationBarHeader.ThemeName = "VisualStudio2012Light";
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarHeader.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // panNavigationBarFooter
+            // 
+            this.panNavigationBarFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panNavigationBarFooter.Location = new System.Drawing.Point(0, 573);
+            this.panNavigationBarFooter.Name = "panNavigationBarFooter";
+            this.panNavigationBarFooter.Size = new System.Drawing.Size(170, 30);
+            this.panNavigationBarFooter.TabIndex = 1;
+            this.panNavigationBarFooter.ThemeName = "VisualStudio2012Light";
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarFooter.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd
+            // 
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.Name = "object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd";
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchHorizontally = true;
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchVertically = true;
+            // 
             // vMainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 605);
+            this.ClientSize = new System.Drawing.Size(1272, 603);
             this.Controls.Add(this.panMain);
             this.Name = "vMainMenu";
             // 
@@ -507,15 +507,13 @@ namespace POS.New
             ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory)).EndInit();
             this.idInventory.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panInventoryHeader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rgvInventory.MasterTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rgvInventory)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panInventoryHeader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panHeader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panFooter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panNavigationBar)).EndInit();
             this.panNavigationBar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrderHistory)).EndInit();
@@ -525,6 +523,8 @@ namespace POS.New
             this.btnCollapse.ResumeLayout(false);
             this.btnCollapse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lblTitle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
