@@ -27,7 +27,7 @@ namespace POS.New.View.vLogIn
             {
                 vMainMenu vMainMenu = new vMainMenu();
                 this.Hide();
-                vMainMenu.Show();
+                vMainMenu.Show();   
             }
 
             else

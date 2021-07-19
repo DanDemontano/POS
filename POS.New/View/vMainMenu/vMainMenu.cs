@@ -1,4 +1,5 @@
-﻿using System;
+﻿using POS.New.View.vLogIn;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,6 @@ namespace POS.New
         {
             InitializeComponent();
             isCollapsed = false;
-            HidePage();
             RemoveOutline();
         }
 
@@ -35,49 +35,70 @@ namespace POS.New
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            HidePage();
+            HidePageDashboard();
         }
 
         private void btnOrder_Click(object sender, EventArgs e)
         {
-            HidePage();
+            HidePageOrder();
         }
 
         private void btnOrderHistory_Click(object sender, EventArgs e)
         {
-            HidePage();
+            HidePageOrderHistory();
         }
 
         private void btnInventory_Click(object sender, EventArgs e)
         {
-            HidePage();
+            HidePageInventory();
         }
 
-        void HidePage()
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            LogOut();
+        }
+
+        void HidePageDashboard()
         {
             rpvMenu.SelectedPage = idDashboard;
             rpvMenu.Pages[0].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[1].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[2].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[3].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+        }
 
+        void HidePageOrder()
+        {
             rpvMenu.SelectedPage = idOrder;
             rpvMenu.Pages[0].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[1].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[2].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[3].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+        }
 
+        void HidePageOrderHistory()
+        {
             rpvMenu.SelectedPage = idOrderHistory;
             rpvMenu.Pages[0].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[1].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[2].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[3].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+        }
 
+        void HidePageInventory()
+        {
             rpvMenu.SelectedPage = idInventory;
             rpvMenu.Pages[0].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[1].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[2].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             rpvMenu.Pages[3].Item.Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+        }
+
+        void LogOut()
+        {
+            vLogin vLogin = new vLogin();
+            this.Hide();
+            vLogin.Show();
         }
 
         void Collapse()
@@ -116,5 +137,69 @@ namespace POS.New
             btnInventory.ButtonElement.ShowBorder = false;
             btnLogOut.ButtonElement.ShowBorder = false;
         }
+
+        #region BtnMouseColors
+        private void btnCollapse_MouseEnter(object sender, EventArgs e)
+        {
+            btnCollapse.BackColor = Color.SlateBlue;
+        }
+
+        private void btnCollapse_MouseLeave(object sender, EventArgs e)
+        {
+            btnCollapse.BackColor = Color.DarkSlateBlue;
+        }
+
+        private void btnDashboard_MouseEnter(object sender, EventArgs e)
+        {
+            btnDashboard.BackColor = Color.SlateBlue;
+        }
+
+        private void btnDashboard_MouseLeave(object sender, EventArgs e)
+        {
+            btnDashboard.BackColor = Color.DarkSlateBlue;
+        }
+
+        private void btnOrder_MouseEnter(object sender, EventArgs e)
+        {
+            btnOrder.BackColor = Color.SlateBlue;
+        }
+
+        private void btnOrder_MouseLeave(object sender, EventArgs e)
+        {
+            btnOrder.BackColor = Color.DarkSlateBlue;
+        }
+
+        private void btnOrderHistory_MouseEnter(object sender, EventArgs e)
+        {
+            btnOrderHistory.BackColor = Color.SlateBlue;
+        }
+
+        private void btnOrderHistory_MouseLeave(object sender, EventArgs e)
+        {
+            btnOrderHistory.BackColor = Color.DarkSlateBlue;
+        }
+
+        private void btnInventory_MouseEnter(object sender, EventArgs e)
+        {
+            btnInventory.BackColor = Color.SlateBlue;
+        }
+
+        private void btnInventory_MouseLeave(object sender, EventArgs e)
+        {
+            btnInventory.BackColor = Color.DarkSlateBlue;
+        }
+
+        private void btnLogOut_MouseEnter(object sender, EventArgs e)
+        {
+            btnLogOut.BackColor = Color.SlateBlue;
+        }
+
+        private void btnLogOut_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogOut.BackColor = Color.DarkSlateBlue;
+        }
+
+
+        #endregion
     }
 }

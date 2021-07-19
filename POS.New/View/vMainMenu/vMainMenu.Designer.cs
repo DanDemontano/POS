@@ -29,18 +29,39 @@ namespace POS.New
         /// </summary>
         private void InitializeComponent()
         {
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn1 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn2 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn3 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn4 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn5 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn6 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition1 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn7 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn8 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn9 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn10 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn11 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn12 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition2 = new Telerik.WinControls.UI.TableViewDefinition();
             this.visualStudio2012LightTheme1 = new Telerik.WinControls.Themes.VisualStudio2012LightTheme();
             this.panMain = new Telerik.WinControls.UI.RadPanel();
             this.panContent = new Telerik.WinControls.UI.RadPanel();
             this.rpvMenu = new Telerik.WinControls.UI.RadPageView();
             this.idDashboard = new Telerik.WinControls.UI.RadPageViewPage();
+            this.button2 = new System.Windows.Forms.Button();
             this.idOrder = new Telerik.WinControls.UI.RadPageViewPage();
             this.button1 = new System.Windows.Forms.Button();
             this.idOrderHistory = new Telerik.WinControls.UI.RadPageViewPage();
+            this.rgvOrderHistory = new Telerik.WinControls.UI.RadGridView();
             this.idInventory = new Telerik.WinControls.UI.RadPageViewPage();
+            this.panInventoryHeader = new Telerik.WinControls.UI.RadPanel();
+            this.rgvInventory = new Telerik.WinControls.UI.RadGridView();
             this.panHeader = new Telerik.WinControls.UI.RadPanel();
             this.panFooter = new Telerik.WinControls.UI.RadPanel();
             this.panNavigationBar = new Telerik.WinControls.UI.RadPanel();
+            this.panNavigationBarHeader = new Telerik.WinControls.UI.RadPanel();
+            this.panNavigationBarFooter = new Telerik.WinControls.UI.RadPanel();
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd = new Telerik.WinControls.RootRadElement();
             this.btnLogOut = new Telerik.WinControls.UI.RadButton();
             this.btnInventory = new Telerik.WinControls.UI.RadButton();
             this.btnOrderHistory = new Telerik.WinControls.UI.RadButton();
@@ -54,11 +75,21 @@ namespace POS.New
             this.panContent.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rpvMenu)).BeginInit();
             this.rpvMenu.SuspendLayout();
+            this.idDashboard.SuspendLayout();
             this.idOrder.SuspendLayout();
+            this.idOrderHistory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory.MasterTemplate)).BeginInit();
+            this.idInventory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panInventoryHeader)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvInventory)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvInventory.MasterTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panHeader)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panFooter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panNavigationBar)).BeginInit();
             this.panNavigationBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrderHistory)).BeginInit();
@@ -79,7 +110,7 @@ namespace POS.New
             this.panMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panMain.Location = new System.Drawing.Point(0, 0);
             this.panMain.Name = "panMain";
-            this.panMain.Size = new System.Drawing.Size(1272, 635);
+            this.panMain.Size = new System.Drawing.Size(1272, 605);
             this.panMain.TabIndex = 1;
             // 
             // panContent
@@ -88,7 +119,7 @@ namespace POS.New
             this.panContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panContent.Location = new System.Drawing.Point(170, 35);
             this.panContent.Name = "panContent";
-            this.panContent.Size = new System.Drawing.Size(1102, 570);
+            this.panContent.Size = new System.Drawing.Size(1102, 540);
             this.panContent.TabIndex = 2;
             // 
             // rpvMenu
@@ -101,8 +132,8 @@ namespace POS.New
             this.rpvMenu.ItemSizeMode = Telerik.WinControls.UI.PageViewItemSizeMode.EqualWidth;
             this.rpvMenu.Location = new System.Drawing.Point(0, 0);
             this.rpvMenu.Name = "rpvMenu";
-            this.rpvMenu.SelectedPage = this.idDashboard;
-            this.rpvMenu.Size = new System.Drawing.Size(1102, 570);
+            this.rpvMenu.SelectedPage = this.idOrderHistory;
+            this.rpvMenu.Size = new System.Drawing.Size(1102, 540);
             this.rpvMenu.TabIndex = 5;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).ShowItemPinButton = false;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.None;
@@ -116,20 +147,30 @@ namespace POS.New
             // 
             // idDashboard
             // 
-            this.idDashboard.ItemSize = new System.Drawing.SizeF(275F, 29F);
+            this.idDashboard.Controls.Add(this.button2);
+            this.idDashboard.ItemSize = new System.Drawing.SizeF(275F, 25F);
             this.idDashboard.Location = new System.Drawing.Point(6, 35);
             this.idDashboard.Name = "idDashboard";
-            this.idDashboard.Size = new System.Drawing.Size(1090, 529);
+            this.idDashboard.Size = new System.Drawing.Size(1090, 499);
             this.idDashboard.Text = "Dashboard";
             this.idDashboard.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(169, 98);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(96, 49);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // idOrder
             // 
             this.idOrder.Controls.Add(this.button1);
-            this.idOrder.ItemSize = new System.Drawing.SizeF(275F, 29F);
+            this.idOrder.ItemSize = new System.Drawing.SizeF(275F, 25F);
             this.idOrder.Location = new System.Drawing.Point(6, 35);
             this.idOrder.Name = "idOrder";
-            this.idOrder.Size = new System.Drawing.Size(1090, 545);
+            this.idOrder.Size = new System.Drawing.Size(1090, 501);
             this.idOrder.Text = "Order";
             this.idOrder.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -144,21 +185,115 @@ namespace POS.New
             // 
             // idOrderHistory
             // 
-            this.idOrderHistory.ItemSize = new System.Drawing.SizeF(275F, 29F);
-            this.idOrderHistory.Location = new System.Drawing.Point(6, 35);
+            this.idOrderHistory.Controls.Add(this.rgvOrderHistory);
+            this.idOrderHistory.ItemSize = new System.Drawing.SizeF(275F, 25F);
+            this.idOrderHistory.Location = new System.Drawing.Point(6, 31);
             this.idOrderHistory.Name = "idOrderHistory";
-            this.idOrderHistory.Size = new System.Drawing.Size(1090, 545);
+            this.idOrderHistory.Size = new System.Drawing.Size(1090, 503);
             this.idOrderHistory.Text = "Order History";
             this.idOrderHistory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // rgvOrderHistory
+            // 
+            this.rgvOrderHistory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rgvOrderHistory.Location = new System.Drawing.Point(0, 0);
+            // 
+            // 
+            // 
+            this.rgvOrderHistory.MasterTemplate.AllowAddNewRow = false;
+            this.rgvOrderHistory.MasterTemplate.AllowColumnReorder = false;
+            gridViewTextBoxColumn1.HeaderText = "ID";
+            gridViewTextBoxColumn1.Name = "idOrderHistory";
+            gridViewTextBoxColumn1.Width = 106;
+            gridViewTextBoxColumn2.HeaderText = "Date";
+            gridViewTextBoxColumn2.Name = "idOHDate";
+            gridViewTextBoxColumn2.Width = 194;
+            gridViewTextBoxColumn3.HeaderText = "Item";
+            gridViewTextBoxColumn3.Name = "idOHItem";
+            gridViewTextBoxColumn3.Width = 194;
+            gridViewTextBoxColumn4.HeaderText = "Qty";
+            gridViewTextBoxColumn4.Name = "idOHQty";
+            gridViewTextBoxColumn4.Width = 194;
+            gridViewTextBoxColumn5.HeaderText = "Addons";
+            gridViewTextBoxColumn5.Name = "idOHAddons";
+            gridViewTextBoxColumn5.Width = 194;
+            gridViewTextBoxColumn6.HeaderText = "Total";
+            gridViewTextBoxColumn6.Name = "idOHTotal";
+            gridViewTextBoxColumn6.Width = 194;
+            this.rgvOrderHistory.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewTextBoxColumn1,
+            gridViewTextBoxColumn2,
+            gridViewTextBoxColumn3,
+            gridViewTextBoxColumn4,
+            gridViewTextBoxColumn5,
+            gridViewTextBoxColumn6});
+            this.rgvOrderHistory.MasterTemplate.ViewDefinition = tableViewDefinition1;
+            this.rgvOrderHistory.Name = "rgvOrderHistory";
+            this.rgvOrderHistory.ReadOnly = true;
+            this.rgvOrderHistory.Size = new System.Drawing.Size(1090, 503);
+            this.rgvOrderHistory.TabIndex = 0;
+            this.rgvOrderHistory.ThemeName = "VisualStudio2012Light";
+            // 
             // idInventory
             // 
-            this.idInventory.ItemSize = new System.Drawing.SizeF(275F, 29F);
+            this.idInventory.Controls.Add(this.rgvInventory);
+            this.idInventory.Controls.Add(this.panInventoryHeader);
+            this.idInventory.ItemSize = new System.Drawing.SizeF(275F, 25F);
             this.idInventory.Location = new System.Drawing.Point(6, 35);
             this.idInventory.Name = "idInventory";
-            this.idInventory.Size = new System.Drawing.Size(1090, 545);
+            this.idInventory.Size = new System.Drawing.Size(1090, 499);
             this.idInventory.Text = "Inventory";
             this.idInventory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panInventoryHeader
+            // 
+            this.panInventoryHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panInventoryHeader.Location = new System.Drawing.Point(0, 0);
+            this.panInventoryHeader.Name = "panInventoryHeader";
+            this.panInventoryHeader.Size = new System.Drawing.Size(1090, 73);
+            this.panInventoryHeader.TabIndex = 1;
+            this.panInventoryHeader.ThemeName = "VisualStudio2012Light";
+            // 
+            // rgvInventory
+            // 
+            this.rgvInventory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rgvInventory.Location = new System.Drawing.Point(0, 73);
+            // 
+            // 
+            // 
+            this.rgvInventory.MasterTemplate.AllowAddNewRow = false;
+            this.rgvInventory.MasterTemplate.AllowColumnReorder = false;
+            gridViewTextBoxColumn7.HeaderText = "ID";
+            gridViewTextBoxColumn7.Name = "idInventory";
+            gridViewTextBoxColumn7.Width = 106;
+            gridViewTextBoxColumn8.HeaderText = "Date";
+            gridViewTextBoxColumn8.Name = "idInvDate";
+            gridViewTextBoxColumn8.Width = 194;
+            gridViewTextBoxColumn9.HeaderText = "Item";
+            gridViewTextBoxColumn9.Name = "column3";
+            gridViewTextBoxColumn9.Width = 194;
+            gridViewTextBoxColumn10.HeaderText = "Item Stock";
+            gridViewTextBoxColumn10.Name = "idItemStock";
+            gridViewTextBoxColumn10.Width = 194;
+            gridViewTextBoxColumn11.HeaderText = "Addon";
+            gridViewTextBoxColumn11.Name = "idIAddon";
+            gridViewTextBoxColumn11.Width = 194;
+            gridViewTextBoxColumn12.HeaderText = "Addon Stock";
+            gridViewTextBoxColumn12.Name = "idAddonStock";
+            gridViewTextBoxColumn12.Width = 194;
+            this.rgvInventory.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewTextBoxColumn7,
+            gridViewTextBoxColumn8,
+            gridViewTextBoxColumn9,
+            gridViewTextBoxColumn10,
+            gridViewTextBoxColumn11,
+            gridViewTextBoxColumn12});
+            this.rgvInventory.MasterTemplate.ViewDefinition = tableViewDefinition2;
+            this.rgvInventory.Name = "rgvInventory";
+            this.rgvInventory.ReadOnly = true;
+            this.rgvInventory.Size = new System.Drawing.Size(1090, 426);
+            this.rgvInventory.TabIndex = 0;
+            this.rgvInventory.ThemeName = "VisualStudio2012Light";
             // 
             // panHeader
             // 
@@ -175,7 +310,7 @@ namespace POS.New
             // 
             this.panFooter.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.panFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panFooter.Location = new System.Drawing.Point(170, 605);
+            this.panFooter.Location = new System.Drawing.Point(170, 575);
             this.panFooter.Name = "panFooter";
             this.panFooter.Size = new System.Drawing.Size(1102, 30);
             this.panFooter.TabIndex = 4;
@@ -191,13 +326,42 @@ namespace POS.New
             this.panNavigationBar.Controls.Add(this.btnOrder);
             this.panNavigationBar.Controls.Add(this.btnDashboard);
             this.panNavigationBar.Controls.Add(this.btnCollapse);
+            this.panNavigationBar.Controls.Add(this.panNavigationBarHeader);
+            this.panNavigationBar.Controls.Add(this.panNavigationBarFooter);
             this.panNavigationBar.Dock = System.Windows.Forms.DockStyle.Left;
             this.panNavigationBar.Location = new System.Drawing.Point(0, 0);
             this.panNavigationBar.Name = "panNavigationBar";
-            this.panNavigationBar.Size = new System.Drawing.Size(170, 635);
+            this.panNavigationBar.Size = new System.Drawing.Size(170, 605);
             this.panNavigationBar.TabIndex = 2;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // panNavigationBarHeader
+            // 
+            this.panNavigationBarHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panNavigationBarHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panNavigationBarHeader.Location = new System.Drawing.Point(0, 0);
+            this.panNavigationBarHeader.Name = "panNavigationBarHeader";
+            this.panNavigationBarHeader.Size = new System.Drawing.Size(170, 35);
+            this.panNavigationBarHeader.TabIndex = 2;
+            this.panNavigationBarHeader.ThemeName = "VisualStudio2012Light";
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarHeader.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // panNavigationBarFooter
+            // 
+            this.panNavigationBarFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panNavigationBarFooter.Location = new System.Drawing.Point(0, 575);
+            this.panNavigationBarFooter.Name = "panNavigationBarFooter";
+            this.panNavigationBarFooter.Size = new System.Drawing.Size(170, 30);
+            this.panNavigationBarFooter.TabIndex = 1;
+            this.panNavigationBarFooter.ThemeName = "VisualStudio2012Light";
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarFooter.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd
+            // 
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.Name = "object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd";
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchHorizontally = true;
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchVertically = true;
             // 
             // btnLogOut
             // 
@@ -205,12 +369,15 @@ namespace POS.New
             this.btnLogOut.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnLogOut.ForeColor = System.Drawing.Color.White;
             this.btnLogOut.Image = global::POS.New.Properties.Resources.outline_logout_white_24dp;
-            this.btnLogOut.Location = new System.Drawing.Point(0, 605);
+            this.btnLogOut.Location = new System.Drawing.Point(0, 520);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnLogOut.Size = new System.Drawing.Size(170, 30);
+            this.btnLogOut.Size = new System.Drawing.Size(170, 55);
             this.btnLogOut.TabIndex = 0;
             this.btnLogOut.Text = "Logout";
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
+            this.btnLogOut.MouseEnter += new System.EventHandler(this.btnLogOut_MouseEnter);
+            this.btnLogOut.MouseLeave += new System.EventHandler(this.btnLogOut_MouseLeave);
             ((Telerik.WinControls.UI.RadButtonElement)(this.btnLogOut.GetChildAt(0))).Image = global::POS.New.Properties.Resources.outline_logout_white_24dp;
             ((Telerik.WinControls.UI.RadButtonElement)(this.btnLogOut.GetChildAt(0))).Text = "Logout";
             ((Telerik.WinControls.UI.RadButtonElement)(this.btnLogOut.GetChildAt(0))).Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
@@ -223,13 +390,15 @@ namespace POS.New
             this.btnInventory.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnInventory.ForeColor = System.Drawing.Color.White;
             this.btnInventory.Image = global::POS.New.Properties.Resources.outline_inventory_2_white_24dp;
-            this.btnInventory.Location = new System.Drawing.Point(0, 218);
+            this.btnInventory.Location = new System.Drawing.Point(0, 253);
             this.btnInventory.Name = "btnInventory";
             this.btnInventory.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnInventory.Size = new System.Drawing.Size(170, 55);
             this.btnInventory.TabIndex = 0;
             this.btnInventory.Text = "Inventory";
             this.btnInventory.Click += new System.EventHandler(this.btnInventory_Click);
+            this.btnInventory.MouseEnter += new System.EventHandler(this.btnInventory_MouseEnter);
+            this.btnInventory.MouseLeave += new System.EventHandler(this.btnInventory_MouseLeave);
             // 
             // btnOrderHistory
             // 
@@ -238,13 +407,15 @@ namespace POS.New
             this.btnOrderHistory.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnOrderHistory.ForeColor = System.Drawing.Color.White;
             this.btnOrderHistory.Image = global::POS.New.Properties.Resources.outline_history_white_24dp;
-            this.btnOrderHistory.Location = new System.Drawing.Point(0, 163);
+            this.btnOrderHistory.Location = new System.Drawing.Point(0, 198);
             this.btnOrderHistory.Name = "btnOrderHistory";
             this.btnOrderHistory.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnOrderHistory.Size = new System.Drawing.Size(170, 55);
             this.btnOrderHistory.TabIndex = 0;
             this.btnOrderHistory.Text = "Order History";
             this.btnOrderHistory.Click += new System.EventHandler(this.btnOrderHistory_Click);
+            this.btnOrderHistory.MouseEnter += new System.EventHandler(this.btnOrderHistory_MouseEnter);
+            this.btnOrderHistory.MouseLeave += new System.EventHandler(this.btnOrderHistory_MouseLeave);
             // 
             // btnOrder
             // 
@@ -253,13 +424,15 @@ namespace POS.New
             this.btnOrder.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnOrder.ForeColor = System.Drawing.Color.White;
             this.btnOrder.Image = global::POS.New.Properties.Resources.outline_point_of_sale_white_24dp;
-            this.btnOrder.Location = new System.Drawing.Point(0, 108);
+            this.btnOrder.Location = new System.Drawing.Point(0, 143);
             this.btnOrder.Name = "btnOrder";
             this.btnOrder.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnOrder.Size = new System.Drawing.Size(170, 55);
             this.btnOrder.TabIndex = 0;
             this.btnOrder.Text = "Order";
             this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
+            this.btnOrder.MouseEnter += new System.EventHandler(this.btnOrder_MouseEnter);
+            this.btnOrder.MouseLeave += new System.EventHandler(this.btnOrder_MouseLeave);
             // 
             // btnDashboard
             // 
@@ -268,36 +441,41 @@ namespace POS.New
             this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
             this.btnDashboard.Image = global::POS.New.Properties.Resources.outline_dashboard_white_24dp;
-            this.btnDashboard.Location = new System.Drawing.Point(0, 53);
+            this.btnDashboard.Location = new System.Drawing.Point(0, 88);
             this.btnDashboard.Name = "btnDashboard";
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnDashboard.Size = new System.Drawing.Size(170, 55);
             this.btnDashboard.TabIndex = 0;
             this.btnDashboard.Text = "Dashboard";
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
+            this.btnDashboard.MouseEnter += new System.EventHandler(this.btnDashboard_MouseEnter);
+            this.btnDashboard.MouseLeave += new System.EventHandler(this.btnDashboard_MouseLeave);
             // 
             // btnCollapse
             // 
             this.btnCollapse.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnCollapse.Controls.Add(this.lblTitle);
+            this.btnCollapse.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCollapse.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCollapse.Font = new System.Drawing.Font("Harabara", 24.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCollapse.Image = global::POS.New.Properties.Resources.outline_menu_open_white_24dp;
-            this.btnCollapse.Location = new System.Drawing.Point(0, 0);
+            this.btnCollapse.Location = new System.Drawing.Point(0, 35);
             this.btnCollapse.Name = "btnCollapse";
-            this.btnCollapse.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.btnCollapse.Padding = new System.Windows.Forms.Padding(5, 0, 10, 0);
             this.btnCollapse.Size = new System.Drawing.Size(170, 53);
             this.btnCollapse.TabIndex = 0;
             this.btnCollapse.Click += new System.EventHandler(this.btnCollapse_Click);
+            this.btnCollapse.MouseEnter += new System.EventHandler(this.btnCollapse_MouseEnter);
+            this.btnCollapse.MouseLeave += new System.EventHandler(this.btnCollapse_MouseLeave);
             // 
             // lblTitle
             // 
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Right;
             this.lblTitle.Font = new System.Drawing.Font("Harabara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(48, 0);
+            this.lblTitle.Location = new System.Drawing.Point(38, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Padding = new System.Windows.Forms.Padding(0, 10, 0, 0);
+            this.lblTitle.Padding = new System.Windows.Forms.Padding(0, 8, 0, 0);
             this.lblTitle.Size = new System.Drawing.Size(122, 53);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Eats2Go";
@@ -307,7 +485,7 @@ namespace POS.New
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 635);
+            this.ClientSize = new System.Drawing.Size(1272, 605);
             this.Controls.Add(this.panMain);
             this.Name = "vMainMenu";
             // 
@@ -323,11 +501,21 @@ namespace POS.New
             this.panContent.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.rpvMenu)).EndInit();
             this.rpvMenu.ResumeLayout(false);
+            this.idDashboard.ResumeLayout(false);
             this.idOrder.ResumeLayout(false);
+            this.idOrderHistory.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory.MasterTemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvOrderHistory)).EndInit();
+            this.idInventory.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panInventoryHeader)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvInventory.MasterTemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.rgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panHeader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panFooter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panNavigationBar)).EndInit();
             this.panNavigationBar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrderHistory)).EndInit();
@@ -362,6 +550,13 @@ namespace POS.New
         private Telerik.WinControls.UI.RadPanel panContent;
         private Telerik.WinControls.UI.RadLabel lblTitle;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private Telerik.WinControls.UI.RadGridView rgvInventory;
+        private Telerik.WinControls.UI.RadPanel panNavigationBarHeader;
+        private Telerik.WinControls.RootRadElement object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd;
+        private Telerik.WinControls.UI.RadPanel panNavigationBarFooter;
+        private Telerik.WinControls.UI.RadPanel panInventoryHeader;
+        private Telerik.WinControls.UI.RadGridView rgvOrderHistory;
     }
 }
 
