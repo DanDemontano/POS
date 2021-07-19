@@ -145,7 +145,4 @@
   <data name="outline_menu_white_24dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\outline_menu_white_24dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="75429377_2674036102652767_8810005563741044736_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\75429377_2674036102652767_8810005563741044736_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

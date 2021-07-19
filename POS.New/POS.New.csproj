@@ -127,8 +127,5 @@
   <ItemGroup>
     <None Include="Resources\outline_visibility_off_black_18dp.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\75429377_2674036102652767_8810005563741044736_n.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
