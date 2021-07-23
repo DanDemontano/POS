@@ -63,6 +63,26 @@ namespace POS.New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Chicken_Pesto {
+            get {
+                object obj = ResourceManager.GetObject("Chicken_Pesto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Daco_4363443 {
+            get {
+                object obj = ResourceManager.GetObject("Daco_4363443", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap outline_dashboard_white_24dp {
             get {
                 object obj = ResourceManager.GetObject("outline_dashboard_white_24dp", resourceCulture);
@@ -146,6 +166,16 @@ namespace POS.New.Properties {
         internal static System.Drawing.Bitmap outline_visibility_off_black_18dp {
             get {
                 object obj = ResourceManager.GetObject("outline_visibility_off_black_18dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Smoked_Turkey {
+            get {
+                object obj = ResourceManager.GetObject("Smoked_Turkey", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

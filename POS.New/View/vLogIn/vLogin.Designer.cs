@@ -35,6 +35,7 @@
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.btnLogin = new Telerik.WinControls.UI.RadButton();
             this.z = new Telerik.WinControls.UI.RadPanel();
+            this.radPictureBox1 = new Telerik.WinControls.UI.RadPictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.txtUsername)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
@@ -42,6 +43,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnLogin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.z)).BeginInit();
             this.z.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,6 +89,7 @@
             // 
             // z
             // 
+            this.z.Controls.Add(this.radPictureBox1);
             this.z.Controls.Add(this.txtPass);
             this.z.Controls.Add(this.btnLogin);
             this.z.Controls.Add(this.radLabel2);
@@ -99,12 +102,23 @@
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.z.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
             ((Telerik.WinControls.Primitives.BorderPrimitive)(this.z.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
             // 
+            // radPictureBox1
+            // 
+            this.radPictureBox1.DefaultImage = null;
+            this.radPictureBox1.Image = global::POS.New.Properties.Resources.Daco_4363443;
+            this.radPictureBox1.Location = new System.Drawing.Point(28, 34);
+            this.radPictureBox1.Name = "radPictureBox1";
+            this.radPictureBox1.Size = new System.Drawing.Size(191, 142);
+            this.radPictureBox1.SvgImageXml = null;
+            this.radPictureBox1.TabIndex = 5;
+            this.radPictureBox1.ThemeName = "VisualStudio2012Light";
+            // 
             // vLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.ClientSize = new System.Drawing.Size(712, 277);
+            this.ClientSize = new System.Drawing.Size(712, 275);
             this.Controls.Add(this.z);
             this.Name = "vLogin";
             // 
@@ -122,6 +136,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.z)).EndInit();
             this.z.ResumeLayout(false);
             this.z.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -136,5 +151,6 @@
         private Telerik.WinControls.UI.RadLabel radLabel2;
         private Telerik.WinControls.UI.RadButton btnLogin;
         private Telerik.WinControls.UI.RadPanel z;
+        private Telerik.WinControls.UI.RadPictureBox radPictureBox1;
     }
 }

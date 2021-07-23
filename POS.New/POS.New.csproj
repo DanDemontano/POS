@@ -127,5 +127,14 @@
   <ItemGroup>
     <None Include="Resources\outline_visibility_off_black_18dp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Daco_4363443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chicken Pesto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Smoked Turkey.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
