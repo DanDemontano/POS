@@ -17,9 +17,13 @@ namespace POS.New
         public int counter1 = 0;
         public int counter2 = 0;
         public int counter3 = 0;
+        public int sum1 { get; set; }
+        public int sum2 { get; set; }
+        public int sum3 { get; set; }
         public int total { get; set; }
         public bool isCollapsed;
         #endregion
+
         public vMainMenu()
         {
             InitializeComponent();
@@ -70,6 +74,11 @@ namespace POS.New
         private void btnChips_Click(object sender, EventArgs e)
         {
             CheckChips();
+        }
+
+        private void vMainMenu_Load(object sender, EventArgs e)
+        {
+            HidePageDashboard();
         }
 
         #region Functions
@@ -148,10 +157,16 @@ namespace POS.New
             if (chkbMeat.Checked)
             {
                 chkbMeat.Checked = false;
+                lblAdd1.Text = "";
+                total = total - 20;
+                txtTotal.Text = total.ToString();
             }
             else
             {
                 chkbMeat.Checked = true;
+                lblAdd1.Text = "20";
+                total = total + 20;
+                txtTotal.Text = total.ToString();
             }
         }
 
@@ -160,10 +175,16 @@ namespace POS.New
             if (chkbChips.Checked)
             {
                 chkbChips.Checked = false;
+                lblAdd2.Text = "";
+                total = total - 20;
+                txtTotal.Text = total.ToString();
             }
             else
             {
                 chkbChips.Checked = true;
+                lblAdd2.Text = "20";
+                total = total + 20;
+                txtTotal.Text = total.ToString();
             }
         }
 
@@ -303,48 +324,72 @@ namespace POS.New
         {
             counter1++;
             txtQty1.Text = counter1.ToString();
+            sum1 = sum1 + 89;
+            lblTotal1.Text = sum1.ToString();
             total = total + 89;
             txtTotal.Text = total.ToString();
+            lblQty1.Text = counter1.ToString();
+            lblChicken.Text = "Chicken Pesto";
         }
 
         private void btnSub1_Click(object sender, EventArgs e)
         {
             counter1--;
             txtQty1.Text = counter1.ToString();
+            sum1 = sum1 - 89;
+            lblTotal1.Text = sum1.ToString();
             total = total - 89;
             txtTotal.Text = total.ToString();
+            lblQty1.Text = counter1.ToString();
+            lblChicken.Text = "Chicken Pesto";
         }
 
         private void btnAdd2_Click(object sender, EventArgs e)
         {
             counter2++;
             txtQty2.Text = counter2.ToString();
+            sum2 = sum2 + 69;
+            lblTotal2.Text = sum2.ToString();
             total = total + 69;
             txtTotal.Text = total.ToString();
+            lblQty2.Text = counter2.ToString();
+            lblSmoked.Text = "Smoked Turkey";
         }
 
         private void btnSub2_Click(object sender, EventArgs e)
         {
             counter2--;
             txtQty2.Text = counter2.ToString();
+            sum2 = sum2 - 69;
+            lblTotal2.Text = sum2.ToString();
             total = total - 69;
             txtTotal.Text = total.ToString();
+            lblQty2.Text = counter2.ToString();
+            lblSmoked.Text = "Smoked Turkey";
         }
 
         private void btnAdd3_Click(object sender, EventArgs e)
         {
             counter3++;
             txtQty3.Text = counter3.ToString();
+            sum3 = sum3 + 69;
+            lblTotal3.Text = sum3.ToString();
             total = total + 69;
             txtTotal.Text = total.ToString();
+            lblQty3.Text = counter3.ToString();
+            lblRoast.Text = "Roast Beef";
         }
 
         private void btnSub3_Click(object sender, EventArgs e)
         {
             counter3--;
             txtQty3.Text = counter3.ToString();
+            sum3 = sum3 - 69;
+            lblTotal3.Text = sum3.ToString();
             total = total - 69;
             txtTotal.Text = total.ToString();
+            lblQty3.Text = counter3.ToString();
+            lblRoast.Text = "Roast Beef";
         }
 
         private void btnAddToCart_MouseEnter(object sender, EventArgs e)
@@ -362,5 +407,7 @@ namespace POS.New
         }
 
         #endregion
+
+        
     }
 }
