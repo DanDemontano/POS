@@ -29,20 +29,20 @@ namespace POS.New
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn25 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn26 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn27 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn28 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn29 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn30 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition5 = new Telerik.WinControls.UI.TableViewDefinition();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn31 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn32 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn33 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn34 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn35 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn36 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition6 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn37 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn38 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn39 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn40 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn41 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn42 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition7 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn43 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn44 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn45 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn46 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn47 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.GridViewTextBoxColumn gridViewTextBoxColumn48 = new Telerik.WinControls.UI.GridViewTextBoxColumn();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition8 = new Telerik.WinControls.UI.TableViewDefinition();
             this.visualStudio2012LightTheme1 = new Telerik.WinControls.Themes.VisualStudio2012LightTheme();
             this.panMain = new Telerik.WinControls.UI.RadPanel();
             this.panContent = new Telerik.WinControls.UI.RadPanel();
@@ -51,21 +51,18 @@ namespace POS.New
             this.button2 = new System.Windows.Forms.Button();
             this.idOrder = new Telerik.WinControls.UI.RadPageViewPage();
             this.panOrderRight = new Telerik.WinControls.UI.RadPanel();
+            this.radLabel7 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabel6 = new Telerik.WinControls.UI.RadLabel();
+            this.radLabel5 = new Telerik.WinControls.UI.RadLabel();
+            this.chkbMeat = new Telerik.WinControls.UI.RadCheckBox();
+            this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
+            this.chkbChips = new Telerik.WinControls.UI.RadCheckBox();
             this.txtTotal = new Telerik.WinControls.UI.RadTextBox();
             this.radLabel3 = new Telerik.WinControls.UI.RadLabel();
             this.panOrderLeft = new Telerik.WinControls.UI.RadPanel();
-            this.btnSub3 = new Telerik.WinControls.UI.RadButton();
-            this.btnAdd3 = new Telerik.WinControls.UI.RadButton();
             this.txtQty3 = new Telerik.WinControls.UI.RadTextBox();
-            this.btnSub2 = new Telerik.WinControls.UI.RadButton();
-            this.btnAdd2 = new Telerik.WinControls.UI.RadButton();
             this.txtQty2 = new Telerik.WinControls.UI.RadTextBox();
-            this.btnSub1 = new Telerik.WinControls.UI.RadButton();
-            this.btnAdd1 = new Telerik.WinControls.UI.RadButton();
             this.txtQty1 = new Telerik.WinControls.UI.RadTextBox();
-            this.btnRoast = new Telerik.WinControls.UI.RadPictureBox();
-            this.btnSmoked = new Telerik.WinControls.UI.RadPictureBox();
-            this.btnChicken = new Telerik.WinControls.UI.RadPictureBox();
             this.radLabel1 = new Telerik.WinControls.UI.RadLabel();
             this.radLabel2 = new Telerik.WinControls.UI.RadLabel();
             this.btnChips = new Telerik.WinControls.UI.RadButton();
@@ -78,6 +75,19 @@ namespace POS.New
             this.panHeader = new Telerik.WinControls.UI.RadPanel();
             this.panFooter = new Telerik.WinControls.UI.RadPanel();
             this.panNavigationBar = new Telerik.WinControls.UI.RadPanel();
+            this.panNavigationBarHeader = new Telerik.WinControls.UI.RadPanel();
+            this.panNavigationBarFooter = new Telerik.WinControls.UI.RadPanel();
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd = new Telerik.WinControls.RootRadElement();
+            this.btnAddToCart = new Telerik.WinControls.UI.RadButton();
+            this.btnSub3 = new Telerik.WinControls.UI.RadButton();
+            this.btnAdd3 = new Telerik.WinControls.UI.RadButton();
+            this.btnSub2 = new Telerik.WinControls.UI.RadButton();
+            this.btnAdd2 = new Telerik.WinControls.UI.RadButton();
+            this.btnSub1 = new Telerik.WinControls.UI.RadButton();
+            this.btnAdd1 = new Telerik.WinControls.UI.RadButton();
+            this.btnRoast = new Telerik.WinControls.UI.RadPictureBox();
+            this.btnSmoked = new Telerik.WinControls.UI.RadPictureBox();
+            this.btnChicken = new Telerik.WinControls.UI.RadPictureBox();
             this.btnLogOut = new Telerik.WinControls.UI.RadButton();
             this.btnInventory = new Telerik.WinControls.UI.RadButton();
             this.btnOrderHistory = new Telerik.WinControls.UI.RadButton();
@@ -85,16 +95,6 @@ namespace POS.New
             this.btnDashboard = new Telerik.WinControls.UI.RadButton();
             this.btnCollapse = new Telerik.WinControls.UI.RadButton();
             this.lblTitle = new Telerik.WinControls.UI.RadLabel();
-            this.panNavigationBarHeader = new Telerik.WinControls.UI.RadPanel();
-            this.panNavigationBarFooter = new Telerik.WinControls.UI.RadPanel();
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd = new Telerik.WinControls.RootRadElement();
-            this.chkbChips = new Telerik.WinControls.UI.RadCheckBox();
-            this.radLabel4 = new Telerik.WinControls.UI.RadLabel();
-            this.radCheckBox1 = new Telerik.WinControls.UI.RadCheckBox();
-            this.radLabel5 = new Telerik.WinControls.UI.RadLabel();
-            this.radLabel6 = new Telerik.WinControls.UI.RadLabel();
-            this.radLabel7 = new Telerik.WinControls.UI.RadLabel();
-            this.radButton1 = new Telerik.WinControls.UI.RadButton();
             ((System.ComponentModel.ISupportInitialize)(this.panMain)).BeginInit();
             this.panMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panContent)).BeginInit();
@@ -105,22 +105,19 @@ namespace POS.New
             this.idOrder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panOrderRight)).BeginInit();
             this.panOrderRight.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkbMeat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkbChips)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTotal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panOrderLeft)).BeginInit();
             this.panOrderLeft.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSub3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQty3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSub2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQty2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSub1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQty1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnRoast)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSmoked)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnChicken)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnChips)).BeginInit();
@@ -136,6 +133,18 @@ namespace POS.New
             ((System.ComponentModel.ISupportInitialize)(this.panFooter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panNavigationBar)).BeginInit();
             this.panNavigationBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddToCart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSub3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAdd3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSub2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAdd2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSub1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAdd1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRoast)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSmoked)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnChicken)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrderHistory)).BeginInit();
@@ -144,15 +153,6 @@ namespace POS.New
             ((System.ComponentModel.ISupportInitialize)(this.btnCollapse)).BeginInit();
             this.btnCollapse.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lblTitle)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkbChips)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radCheckBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
@@ -165,7 +165,7 @@ namespace POS.New
             this.panMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panMain.Location = new System.Drawing.Point(0, 0);
             this.panMain.Name = "panMain";
-            this.panMain.Size = new System.Drawing.Size(1272, 571);
+            this.panMain.Size = new System.Drawing.Size(1272, 569);
             this.panMain.TabIndex = 1;
             // 
             // panContent
@@ -174,7 +174,7 @@ namespace POS.New
             this.panContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panContent.Location = new System.Drawing.Point(170, 35);
             this.panContent.Name = "panContent";
-            this.panContent.Size = new System.Drawing.Size(1102, 506);
+            this.panContent.Size = new System.Drawing.Size(1102, 504);
             this.panContent.TabIndex = 2;
             // 
             // rpvMenu
@@ -188,7 +188,7 @@ namespace POS.New
             this.rpvMenu.Location = new System.Drawing.Point(0, 0);
             this.rpvMenu.Name = "rpvMenu";
             this.rpvMenu.SelectedPage = this.idOrder;
-            this.rpvMenu.Size = new System.Drawing.Size(1102, 506);
+            this.rpvMenu.Size = new System.Drawing.Size(1102, 504);
             this.rpvMenu.TabIndex = 5;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).ShowItemPinButton = false;
             ((Telerik.WinControls.UI.RadPageViewStripElement)(this.rpvMenu.GetChildAt(0))).StripButtons = Telerik.WinControls.UI.StripViewButtons.None;
@@ -203,10 +203,10 @@ namespace POS.New
             // idDashboard
             // 
             this.idDashboard.Controls.Add(this.button2);
-            this.idDashboard.ItemSize = new System.Drawing.SizeF(275F, 29F);
+            this.idDashboard.ItemSize = new System.Drawing.SizeF(275F, 25F);
             this.idDashboard.Location = new System.Drawing.Point(6, 35);
             this.idDashboard.Name = "idDashboard";
-            this.idDashboard.Size = new System.Drawing.Size(1090, 471);
+            this.idDashboard.Size = new System.Drawing.Size(1090, 463);
             this.idDashboard.Text = "Dashboard";
             this.idDashboard.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -223,20 +223,20 @@ namespace POS.New
             // 
             this.idOrder.Controls.Add(this.panOrderRight);
             this.idOrder.Controls.Add(this.panOrderLeft);
-            this.idOrder.ItemSize = new System.Drawing.SizeF(275F, 29F);
-            this.idOrder.Location = new System.Drawing.Point(6, 35);
+            this.idOrder.ItemSize = new System.Drawing.SizeF(275F, 25F);
+            this.idOrder.Location = new System.Drawing.Point(6, 31);
             this.idOrder.Name = "idOrder";
-            this.idOrder.Size = new System.Drawing.Size(1090, 465);
+            this.idOrder.Size = new System.Drawing.Size(1090, 467);
             this.idOrder.Text = "Order";
             this.idOrder.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panOrderRight
             // 
-            this.panOrderRight.Controls.Add(this.radButton1);
+            this.panOrderRight.Controls.Add(this.btnAddToCart);
             this.panOrderRight.Controls.Add(this.radLabel7);
             this.panOrderRight.Controls.Add(this.radLabel6);
             this.panOrderRight.Controls.Add(this.radLabel5);
-            this.panOrderRight.Controls.Add(this.radCheckBox1);
+            this.panOrderRight.Controls.Add(this.chkbMeat);
             this.panOrderRight.Controls.Add(this.radLabel4);
             this.panOrderRight.Controls.Add(this.chkbChips);
             this.panOrderRight.Controls.Add(this.txtTotal);
@@ -244,8 +244,58 @@ namespace POS.New
             this.panOrderRight.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panOrderRight.Location = new System.Drawing.Point(771, 0);
             this.panOrderRight.Name = "panOrderRight";
-            this.panOrderRight.Size = new System.Drawing.Size(319, 465);
+            this.panOrderRight.Size = new System.Drawing.Size(319, 467);
             this.panOrderRight.TabIndex = 11;
+            // 
+            // radLabel7
+            // 
+            this.radLabel7.Location = new System.Drawing.Point(21, 110);
+            this.radLabel7.Name = "radLabel7";
+            this.radLabel7.Size = new System.Drawing.Size(55, 18);
+            this.radLabel7.TabIndex = 25;
+            this.radLabel7.Text = "radLabel7";
+            // 
+            // radLabel6
+            // 
+            this.radLabel6.Location = new System.Drawing.Point(21, 85);
+            this.radLabel6.Name = "radLabel6";
+            this.radLabel6.Size = new System.Drawing.Size(55, 18);
+            this.radLabel6.TabIndex = 24;
+            this.radLabel6.Text = "radLabel6";
+            // 
+            // radLabel5
+            // 
+            this.radLabel5.Location = new System.Drawing.Point(21, 61);
+            this.radLabel5.Name = "radLabel5";
+            this.radLabel5.Size = new System.Drawing.Size(55, 18);
+            this.radLabel5.TabIndex = 23;
+            this.radLabel5.Text = "radLabel5";
+            // 
+            // chkbMeat
+            // 
+            this.chkbMeat.Location = new System.Drawing.Point(21, 155);
+            this.chkbMeat.Name = "chkbMeat";
+            this.chkbMeat.Size = new System.Drawing.Size(76, 18);
+            this.chkbMeat.TabIndex = 22;
+            this.chkbMeat.Text = "Extra Meat";
+            // 
+            // radLabel4
+            // 
+            this.radLabel4.Font = new System.Drawing.Font("Harabara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radLabel4.ForeColor = System.Drawing.Color.SlateBlue;
+            this.radLabel4.Location = new System.Drawing.Point(21, 12);
+            this.radLabel4.Name = "radLabel4";
+            this.radLabel4.Size = new System.Drawing.Size(143, 40);
+            this.radLabel4.TabIndex = 21;
+            this.radLabel4.Text = "Summary";
+            // 
+            // chkbChips
+            // 
+            this.chkbChips.Location = new System.Drawing.Point(21, 179);
+            this.chkbChips.Name = "chkbChips";
+            this.chkbChips.Size = new System.Drawing.Size(78, 18);
+            this.chkbChips.TabIndex = 20;
+            this.chkbChips.Text = "Extra Chips";
             // 
             // txtTotal
             // 
@@ -285,8 +335,271 @@ namespace POS.New
             this.panOrderLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.panOrderLeft.Location = new System.Drawing.Point(0, 0);
             this.panOrderLeft.Name = "panOrderLeft";
-            this.panOrderLeft.Size = new System.Drawing.Size(771, 465);
+            this.panOrderLeft.Size = new System.Drawing.Size(771, 467);
             this.panOrderLeft.TabIndex = 10;
+            // 
+            // txtQty3
+            // 
+            this.txtQty3.Location = new System.Drawing.Point(357, 183);
+            this.txtQty3.Name = "txtQty3";
+            this.txtQty3.Size = new System.Drawing.Size(26, 24);
+            this.txtQty3.TabIndex = 17;
+            // 
+            // txtQty2
+            // 
+            this.txtQty2.Location = new System.Drawing.Point(213, 183);
+            this.txtQty2.Name = "txtQty2";
+            this.txtQty2.Size = new System.Drawing.Size(26, 24);
+            this.txtQty2.TabIndex = 14;
+            // 
+            // txtQty1
+            // 
+            this.txtQty1.Location = new System.Drawing.Point(73, 183);
+            this.txtQty1.Name = "txtQty1";
+            this.txtQty1.Size = new System.Drawing.Size(26, 24);
+            this.txtQty1.TabIndex = 5;
+            // 
+            // radLabel1
+            // 
+            this.radLabel1.Font = new System.Drawing.Font("Harabara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radLabel1.ForeColor = System.Drawing.Color.SlateBlue;
+            this.radLabel1.Location = new System.Drawing.Point(36, 27);
+            this.radLabel1.Name = "radLabel1";
+            this.radLabel1.Size = new System.Drawing.Size(84, 40);
+            this.radLabel1.TabIndex = 5;
+            this.radLabel1.Text = "Menu";
+            // 
+            // radLabel2
+            // 
+            this.radLabel2.Font = new System.Drawing.Font("Harabara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radLabel2.ForeColor = System.Drawing.Color.SlateBlue;
+            this.radLabel2.Location = new System.Drawing.Point(36, 244);
+            this.radLabel2.Name = "radLabel2";
+            this.radLabel2.Size = new System.Drawing.Size(129, 40);
+            this.radLabel2.TabIndex = 8;
+            this.radLabel2.Text = "Add on\'s";
+            // 
+            // btnChips
+            // 
+            this.btnChips.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnChips.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnChips.ForeColor = System.Drawing.Color.White;
+            this.btnChips.Location = new System.Drawing.Point(36, 361);
+            this.btnChips.Name = "btnChips";
+            this.btnChips.Size = new System.Drawing.Size(128, 48);
+            this.btnChips.TabIndex = 7;
+            this.btnChips.Text = "Extra Chips";
+            this.btnChips.Click += new System.EventHandler(this.btnChips_Click);
+            this.btnChips.MouseEnter += new System.EventHandler(this.btnChips_MouseEnter);
+            this.btnChips.MouseLeave += new System.EventHandler(this.btnChips_MouseLeave);
+            // 
+            // btnMeat
+            // 
+            this.btnMeat.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnMeat.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMeat.ForeColor = System.Drawing.Color.White;
+            this.btnMeat.Location = new System.Drawing.Point(36, 290);
+            this.btnMeat.Name = "btnMeat";
+            this.btnMeat.Size = new System.Drawing.Size(128, 48);
+            this.btnMeat.TabIndex = 6;
+            this.btnMeat.Text = "Extra Meat";
+            this.btnMeat.Click += new System.EventHandler(this.btnMeat_Click);
+            this.btnMeat.MouseEnter += new System.EventHandler(this.btnMeat_MouseEnter);
+            this.btnMeat.MouseLeave += new System.EventHandler(this.btnMeat_MouseLeave);
+            // 
+            // idOrderHistory
+            // 
+            this.idOrderHistory.Controls.Add(this.rgvOrderHistory);
+            this.idOrderHistory.ItemSize = new System.Drawing.SizeF(275F, 25F);
+            this.idOrderHistory.Location = new System.Drawing.Point(6, 35);
+            this.idOrderHistory.Name = "idOrderHistory";
+            this.idOrderHistory.Size = new System.Drawing.Size(1090, 473);
+            this.idOrderHistory.Text = "Order History";
+            this.idOrderHistory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // rgvOrderHistory
+            // 
+            this.rgvOrderHistory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rgvOrderHistory.Location = new System.Drawing.Point(0, 0);
+            // 
+            // 
+            // 
+            this.rgvOrderHistory.MasterTemplate.AllowAddNewRow = false;
+            this.rgvOrderHistory.MasterTemplate.AllowColumnReorder = false;
+            gridViewTextBoxColumn37.HeaderText = "ID";
+            gridViewTextBoxColumn37.Name = "idOrderHistory";
+            gridViewTextBoxColumn37.Width = 106;
+            gridViewTextBoxColumn38.HeaderText = "Date";
+            gridViewTextBoxColumn38.Name = "idOHDate";
+            gridViewTextBoxColumn38.Width = 194;
+            gridViewTextBoxColumn39.HeaderText = "Item";
+            gridViewTextBoxColumn39.Name = "idOHItem";
+            gridViewTextBoxColumn39.Width = 194;
+            gridViewTextBoxColumn40.HeaderText = "Qty";
+            gridViewTextBoxColumn40.Name = "idOHQty";
+            gridViewTextBoxColumn40.Width = 194;
+            gridViewTextBoxColumn41.HeaderText = "Addons";
+            gridViewTextBoxColumn41.Name = "idOHAddons";
+            gridViewTextBoxColumn41.Width = 194;
+            gridViewTextBoxColumn42.HeaderText = "Total";
+            gridViewTextBoxColumn42.Name = "idOHTotal";
+            gridViewTextBoxColumn42.Width = 194;
+            this.rgvOrderHistory.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewTextBoxColumn37,
+            gridViewTextBoxColumn38,
+            gridViewTextBoxColumn39,
+            gridViewTextBoxColumn40,
+            gridViewTextBoxColumn41,
+            gridViewTextBoxColumn42});
+            this.rgvOrderHistory.MasterTemplate.ViewDefinition = tableViewDefinition7;
+            this.rgvOrderHistory.Name = "rgvOrderHistory";
+            this.rgvOrderHistory.ReadOnly = true;
+            this.rgvOrderHistory.Size = new System.Drawing.Size(1090, 473);
+            this.rgvOrderHistory.TabIndex = 0;
+            this.rgvOrderHistory.ThemeName = "VisualStudio2012Light";
+            // 
+            // idInventory
+            // 
+            this.idInventory.Controls.Add(this.rgvInventory);
+            this.idInventory.Controls.Add(this.panInventoryHeader);
+            this.idInventory.ItemSize = new System.Drawing.SizeF(275F, 25F);
+            this.idInventory.Location = new System.Drawing.Point(6, 35);
+            this.idInventory.Name = "idInventory";
+            this.idInventory.Size = new System.Drawing.Size(1090, 473);
+            this.idInventory.Text = "Inventory";
+            this.idInventory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // rgvInventory
+            // 
+            this.rgvInventory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rgvInventory.Location = new System.Drawing.Point(0, 73);
+            // 
+            // 
+            // 
+            this.rgvInventory.MasterTemplate.AllowAddNewRow = false;
+            this.rgvInventory.MasterTemplate.AllowColumnReorder = false;
+            gridViewTextBoxColumn43.HeaderText = "ID";
+            gridViewTextBoxColumn43.Name = "idInventory";
+            gridViewTextBoxColumn43.Width = 106;
+            gridViewTextBoxColumn44.HeaderText = "Date";
+            gridViewTextBoxColumn44.Name = "idInvDate";
+            gridViewTextBoxColumn44.Width = 194;
+            gridViewTextBoxColumn45.HeaderText = "Item";
+            gridViewTextBoxColumn45.Name = "column3";
+            gridViewTextBoxColumn45.Width = 194;
+            gridViewTextBoxColumn46.HeaderText = "Item Stock";
+            gridViewTextBoxColumn46.Name = "idItemStock";
+            gridViewTextBoxColumn46.Width = 194;
+            gridViewTextBoxColumn47.HeaderText = "Addon";
+            gridViewTextBoxColumn47.Name = "idIAddon";
+            gridViewTextBoxColumn47.Width = 194;
+            gridViewTextBoxColumn48.HeaderText = "Addon Stock";
+            gridViewTextBoxColumn48.Name = "idAddonStock";
+            gridViewTextBoxColumn48.Width = 194;
+            this.rgvInventory.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
+            gridViewTextBoxColumn43,
+            gridViewTextBoxColumn44,
+            gridViewTextBoxColumn45,
+            gridViewTextBoxColumn46,
+            gridViewTextBoxColumn47,
+            gridViewTextBoxColumn48});
+            this.rgvInventory.MasterTemplate.ViewDefinition = tableViewDefinition8;
+            this.rgvInventory.Name = "rgvInventory";
+            this.rgvInventory.ReadOnly = true;
+            this.rgvInventory.Size = new System.Drawing.Size(1090, 400);
+            this.rgvInventory.TabIndex = 0;
+            this.rgvInventory.ThemeName = "VisualStudio2012Light";
+            // 
+            // panInventoryHeader
+            // 
+            this.panInventoryHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panInventoryHeader.Location = new System.Drawing.Point(0, 0);
+            this.panInventoryHeader.Name = "panInventoryHeader";
+            this.panInventoryHeader.Size = new System.Drawing.Size(1090, 73);
+            this.panInventoryHeader.TabIndex = 1;
+            this.panInventoryHeader.ThemeName = "VisualStudio2012Light";
+            // 
+            // panHeader
+            // 
+            this.panHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panHeader.Location = new System.Drawing.Point(170, 0);
+            this.panHeader.Name = "panHeader";
+            this.panHeader.Size = new System.Drawing.Size(1102, 35);
+            this.panHeader.TabIndex = 0;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panHeader.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panHeader.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // panFooter
+            // 
+            this.panFooter.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panFooter.Location = new System.Drawing.Point(170, 539);
+            this.panFooter.Name = "panFooter";
+            this.panFooter.Size = new System.Drawing.Size(1102, 30);
+            this.panFooter.TabIndex = 4;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panFooter.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panFooter.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // panNavigationBar
+            // 
+            this.panNavigationBar.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panNavigationBar.Controls.Add(this.btnLogOut);
+            this.panNavigationBar.Controls.Add(this.btnInventory);
+            this.panNavigationBar.Controls.Add(this.btnOrderHistory);
+            this.panNavigationBar.Controls.Add(this.btnOrder);
+            this.panNavigationBar.Controls.Add(this.btnDashboard);
+            this.panNavigationBar.Controls.Add(this.btnCollapse);
+            this.panNavigationBar.Controls.Add(this.panNavigationBarHeader);
+            this.panNavigationBar.Controls.Add(this.panNavigationBarFooter);
+            this.panNavigationBar.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panNavigationBar.Location = new System.Drawing.Point(0, 0);
+            this.panNavigationBar.Name = "panNavigationBar";
+            this.panNavigationBar.Size = new System.Drawing.Size(170, 569);
+            this.panNavigationBar.TabIndex = 2;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // panNavigationBarHeader
+            // 
+            this.panNavigationBarHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.panNavigationBarHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panNavigationBarHeader.Location = new System.Drawing.Point(0, 0);
+            this.panNavigationBarHeader.Name = "panNavigationBarHeader";
+            this.panNavigationBarHeader.Size = new System.Drawing.Size(170, 35);
+            this.panNavigationBarHeader.TabIndex = 2;
+            this.panNavigationBarHeader.ThemeName = "VisualStudio2012Light";
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarHeader.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // panNavigationBarFooter
+            // 
+            this.panNavigationBarFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panNavigationBarFooter.Location = new System.Drawing.Point(0, 539);
+            this.panNavigationBarFooter.Name = "panNavigationBarFooter";
+            this.panNavigationBarFooter.Size = new System.Drawing.Size(170, 30);
+            this.panNavigationBarFooter.TabIndex = 1;
+            this.panNavigationBarFooter.ThemeName = "VisualStudio2012Light";
+            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarFooter.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
+            // 
+            // object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd
+            // 
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.Name = "object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd";
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchHorizontally = true;
+            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchVertically = true;
+            // 
+            // btnAddToCart
+            // 
+            this.btnAddToCart.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnAddToCart.ForeColor = System.Drawing.Color.White;
+            this.btnAddToCart.Image = global::POS.New.Properties.Resources.outline_add_shopping_cart_white_24dp;
+            this.btnAddToCart.Location = new System.Drawing.Point(197, 416);
+            this.btnAddToCart.Name = "btnAddToCart";
+            this.btnAddToCart.Padding = new System.Windows.Forms.Padding(5, 0, 12, 0);
+            this.btnAddToCart.Size = new System.Drawing.Size(36, 39);
+            this.btnAddToCart.TabIndex = 26;
+            this.btnAddToCart.TextAlignment = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnAddToCart.MouseEnter += new System.EventHandler(this.btnAddToCart_MouseEnter);
+            this.btnAddToCart.MouseLeave += new System.EventHandler(this.btnAddToCart_MouseLeave);
             // 
             // btnSub3
             // 
@@ -310,13 +623,6 @@ namespace POS.New
             this.btnAdd3.TabIndex = 18;
             this.btnAdd3.Click += new System.EventHandler(this.btnAdd3_Click);
             // 
-            // txtQty3
-            // 
-            this.txtQty3.Location = new System.Drawing.Point(357, 183);
-            this.txtQty3.Name = "txtQty3";
-            this.txtQty3.Size = new System.Drawing.Size(26, 24);
-            this.txtQty3.TabIndex = 17;
-            // 
             // btnSub2
             // 
             this.btnSub2.BackColor = System.Drawing.Color.Transparent;
@@ -339,13 +645,6 @@ namespace POS.New
             this.btnAdd2.TabIndex = 15;
             this.btnAdd2.Click += new System.EventHandler(this.btnAdd2_Click);
             // 
-            // txtQty2
-            // 
-            this.txtQty2.Location = new System.Drawing.Point(213, 183);
-            this.txtQty2.Name = "txtQty2";
-            this.txtQty2.Size = new System.Drawing.Size(26, 24);
-            this.txtQty2.TabIndex = 14;
-            // 
             // btnSub1
             // 
             this.btnSub1.BackColor = System.Drawing.Color.Transparent;
@@ -367,13 +666,6 @@ namespace POS.New
             this.btnAdd1.Size = new System.Drawing.Size(31, 23);
             this.btnAdd1.TabIndex = 12;
             this.btnAdd1.Click += new System.EventHandler(this.btnAdd1_Click);
-            // 
-            // txtQty1
-            // 
-            this.txtQty1.Location = new System.Drawing.Point(73, 183);
-            this.txtQty1.Name = "txtQty1";
-            this.txtQty1.Size = new System.Drawing.Size(26, 24);
-            this.txtQty1.TabIndex = 5;
             // 
             // btnRoast
             // 
@@ -414,205 +706,6 @@ namespace POS.New
             this.btnChicken.MouseEnter += new System.EventHandler(this.btnChicken_MouseEnter);
             this.btnChicken.MouseLeave += new System.EventHandler(this.btnChicken_MouseLeave);
             // 
-            // radLabel1
-            // 
-            this.radLabel1.Font = new System.Drawing.Font("Harabara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel1.ForeColor = System.Drawing.Color.SlateBlue;
-            this.radLabel1.Location = new System.Drawing.Point(36, 27);
-            this.radLabel1.Name = "radLabel1";
-            this.radLabel1.Size = new System.Drawing.Size(84, 40);
-            this.radLabel1.TabIndex = 5;
-            this.radLabel1.Text = "Menu";
-            // 
-            // radLabel2
-            // 
-            this.radLabel2.Font = new System.Drawing.Font("Harabara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel2.ForeColor = System.Drawing.Color.SlateBlue;
-            this.radLabel2.Location = new System.Drawing.Point(36, 244);
-            this.radLabel2.Name = "radLabel2";
-            this.radLabel2.Size = new System.Drawing.Size(129, 40);
-            this.radLabel2.TabIndex = 8;
-            this.radLabel2.Text = "Add on\'s";
-            // 
-            // btnChips
-            // 
-            this.btnChips.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnChips.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnChips.ForeColor = System.Drawing.Color.White;
-            this.btnChips.Location = new System.Drawing.Point(36, 361);
-            this.btnChips.Name = "btnChips";
-            this.btnChips.Size = new System.Drawing.Size(128, 48);
-            this.btnChips.TabIndex = 7;
-            this.btnChips.Text = "Extra Chips";
-            this.btnChips.MouseEnter += new System.EventHandler(this.btnChips_MouseEnter);
-            this.btnChips.MouseLeave += new System.EventHandler(this.btnChips_MouseLeave);
-            // 
-            // btnMeat
-            // 
-            this.btnMeat.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.btnMeat.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnMeat.ForeColor = System.Drawing.Color.White;
-            this.btnMeat.Location = new System.Drawing.Point(36, 290);
-            this.btnMeat.Name = "btnMeat";
-            this.btnMeat.Size = new System.Drawing.Size(128, 48);
-            this.btnMeat.TabIndex = 6;
-            this.btnMeat.Text = "Extra Meat";
-            this.btnMeat.MouseEnter += new System.EventHandler(this.btnMeat_MouseEnter);
-            this.btnMeat.MouseLeave += new System.EventHandler(this.btnMeat_MouseLeave);
-            // 
-            // idOrderHistory
-            // 
-            this.idOrderHistory.Controls.Add(this.rgvOrderHistory);
-            this.idOrderHistory.ItemSize = new System.Drawing.SizeF(275F, 29F);
-            this.idOrderHistory.Location = new System.Drawing.Point(6, 35);
-            this.idOrderHistory.Name = "idOrderHistory";
-            this.idOrderHistory.Size = new System.Drawing.Size(1090, 473);
-            this.idOrderHistory.Text = "Order History";
-            this.idOrderHistory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // rgvOrderHistory
-            // 
-            this.rgvOrderHistory.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rgvOrderHistory.Location = new System.Drawing.Point(0, 0);
-            // 
-            // 
-            // 
-            this.rgvOrderHistory.MasterTemplate.AllowAddNewRow = false;
-            this.rgvOrderHistory.MasterTemplate.AllowColumnReorder = false;
-            gridViewTextBoxColumn25.HeaderText = "ID";
-            gridViewTextBoxColumn25.Name = "idOrderHistory";
-            gridViewTextBoxColumn25.Width = 106;
-            gridViewTextBoxColumn26.HeaderText = "Date";
-            gridViewTextBoxColumn26.Name = "idOHDate";
-            gridViewTextBoxColumn26.Width = 194;
-            gridViewTextBoxColumn27.HeaderText = "Item";
-            gridViewTextBoxColumn27.Name = "idOHItem";
-            gridViewTextBoxColumn27.Width = 194;
-            gridViewTextBoxColumn28.HeaderText = "Qty";
-            gridViewTextBoxColumn28.Name = "idOHQty";
-            gridViewTextBoxColumn28.Width = 194;
-            gridViewTextBoxColumn29.HeaderText = "Addons";
-            gridViewTextBoxColumn29.Name = "idOHAddons";
-            gridViewTextBoxColumn29.Width = 194;
-            gridViewTextBoxColumn30.HeaderText = "Total";
-            gridViewTextBoxColumn30.Name = "idOHTotal";
-            gridViewTextBoxColumn30.Width = 194;
-            this.rgvOrderHistory.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn25,
-            gridViewTextBoxColumn26,
-            gridViewTextBoxColumn27,
-            gridViewTextBoxColumn28,
-            gridViewTextBoxColumn29,
-            gridViewTextBoxColumn30});
-            this.rgvOrderHistory.MasterTemplate.ViewDefinition = tableViewDefinition5;
-            this.rgvOrderHistory.Name = "rgvOrderHistory";
-            this.rgvOrderHistory.ReadOnly = true;
-            this.rgvOrderHistory.Size = new System.Drawing.Size(1090, 473);
-            this.rgvOrderHistory.TabIndex = 0;
-            this.rgvOrderHistory.ThemeName = "VisualStudio2012Light";
-            // 
-            // idInventory
-            // 
-            this.idInventory.Controls.Add(this.rgvInventory);
-            this.idInventory.Controls.Add(this.panInventoryHeader);
-            this.idInventory.ItemSize = new System.Drawing.SizeF(275F, 29F);
-            this.idInventory.Location = new System.Drawing.Point(6, 35);
-            this.idInventory.Name = "idInventory";
-            this.idInventory.Size = new System.Drawing.Size(1090, 473);
-            this.idInventory.Text = "Inventory";
-            this.idInventory.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // rgvInventory
-            // 
-            this.rgvInventory.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rgvInventory.Location = new System.Drawing.Point(0, 73);
-            // 
-            // 
-            // 
-            this.rgvInventory.MasterTemplate.AllowAddNewRow = false;
-            this.rgvInventory.MasterTemplate.AllowColumnReorder = false;
-            gridViewTextBoxColumn31.HeaderText = "ID";
-            gridViewTextBoxColumn31.Name = "idInventory";
-            gridViewTextBoxColumn31.Width = 106;
-            gridViewTextBoxColumn32.HeaderText = "Date";
-            gridViewTextBoxColumn32.Name = "idInvDate";
-            gridViewTextBoxColumn32.Width = 194;
-            gridViewTextBoxColumn33.HeaderText = "Item";
-            gridViewTextBoxColumn33.Name = "column3";
-            gridViewTextBoxColumn33.Width = 194;
-            gridViewTextBoxColumn34.HeaderText = "Item Stock";
-            gridViewTextBoxColumn34.Name = "idItemStock";
-            gridViewTextBoxColumn34.Width = 194;
-            gridViewTextBoxColumn35.HeaderText = "Addon";
-            gridViewTextBoxColumn35.Name = "idIAddon";
-            gridViewTextBoxColumn35.Width = 194;
-            gridViewTextBoxColumn36.HeaderText = "Addon Stock";
-            gridViewTextBoxColumn36.Name = "idAddonStock";
-            gridViewTextBoxColumn36.Width = 194;
-            this.rgvInventory.MasterTemplate.Columns.AddRange(new Telerik.WinControls.UI.GridViewDataColumn[] {
-            gridViewTextBoxColumn31,
-            gridViewTextBoxColumn32,
-            gridViewTextBoxColumn33,
-            gridViewTextBoxColumn34,
-            gridViewTextBoxColumn35,
-            gridViewTextBoxColumn36});
-            this.rgvInventory.MasterTemplate.ViewDefinition = tableViewDefinition6;
-            this.rgvInventory.Name = "rgvInventory";
-            this.rgvInventory.ReadOnly = true;
-            this.rgvInventory.Size = new System.Drawing.Size(1090, 400);
-            this.rgvInventory.TabIndex = 0;
-            this.rgvInventory.ThemeName = "VisualStudio2012Light";
-            // 
-            // panInventoryHeader
-            // 
-            this.panInventoryHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panInventoryHeader.Location = new System.Drawing.Point(0, 0);
-            this.panInventoryHeader.Name = "panInventoryHeader";
-            this.panInventoryHeader.Size = new System.Drawing.Size(1090, 73);
-            this.panInventoryHeader.TabIndex = 1;
-            this.panInventoryHeader.ThemeName = "VisualStudio2012Light";
-            // 
-            // panHeader
-            // 
-            this.panHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panHeader.Location = new System.Drawing.Point(170, 0);
-            this.panHeader.Name = "panHeader";
-            this.panHeader.Size = new System.Drawing.Size(1102, 35);
-            this.panHeader.TabIndex = 0;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panHeader.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panHeader.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // panFooter
-            // 
-            this.panFooter.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panFooter.Location = new System.Drawing.Point(170, 541);
-            this.panFooter.Name = "panFooter";
-            this.panFooter.Size = new System.Drawing.Size(1102, 30);
-            this.panFooter.TabIndex = 4;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panFooter.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panFooter.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // panNavigationBar
-            // 
-            this.panNavigationBar.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panNavigationBar.Controls.Add(this.btnLogOut);
-            this.panNavigationBar.Controls.Add(this.btnInventory);
-            this.panNavigationBar.Controls.Add(this.btnOrderHistory);
-            this.panNavigationBar.Controls.Add(this.btnOrder);
-            this.panNavigationBar.Controls.Add(this.btnDashboard);
-            this.panNavigationBar.Controls.Add(this.btnCollapse);
-            this.panNavigationBar.Controls.Add(this.panNavigationBarHeader);
-            this.panNavigationBar.Controls.Add(this.panNavigationBarFooter);
-            this.panNavigationBar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panNavigationBar.Location = new System.Drawing.Point(0, 0);
-            this.panNavigationBar.Name = "panNavigationBar";
-            this.panNavigationBar.Size = new System.Drawing.Size(170, 571);
-            this.panNavigationBar.TabIndex = 2;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.None;
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBar.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
             // btnLogOut
             // 
             this.btnLogOut.BackColor = System.Drawing.Color.DarkSlateBlue;
@@ -620,7 +713,7 @@ namespace POS.New
             this.btnLogOut.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnLogOut.ForeColor = System.Drawing.Color.White;
             this.btnLogOut.Image = global::POS.New.Properties.Resources.outline_logout_white_24dp;
-            this.btnLogOut.Location = new System.Drawing.Point(0, 486);
+            this.btnLogOut.Location = new System.Drawing.Point(0, 484);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btnLogOut.Size = new System.Drawing.Size(170, 55);
@@ -732,96 +825,11 @@ namespace POS.New
             this.lblTitle.Text = "Eats2Go";
             this.lblTitle.Click += new System.EventHandler(this.lblTitle_Click);
             // 
-            // panNavigationBarHeader
-            // 
-            this.panNavigationBarHeader.BackColor = System.Drawing.Color.DarkSlateBlue;
-            this.panNavigationBarHeader.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panNavigationBarHeader.Location = new System.Drawing.Point(0, 0);
-            this.panNavigationBarHeader.Name = "panNavigationBarHeader";
-            this.panNavigationBarHeader.Size = new System.Drawing.Size(170, 35);
-            this.panNavigationBarHeader.TabIndex = 2;
-            this.panNavigationBarHeader.ThemeName = "VisualStudio2012Light";
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarHeader.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // panNavigationBarFooter
-            // 
-            this.panNavigationBarFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panNavigationBarFooter.Location = new System.Drawing.Point(0, 541);
-            this.panNavigationBarFooter.Name = "panNavigationBarFooter";
-            this.panNavigationBarFooter.Size = new System.Drawing.Size(170, 30);
-            this.panNavigationBarFooter.TabIndex = 1;
-            this.panNavigationBarFooter.ThemeName = "VisualStudio2012Light";
-            ((Telerik.WinControls.Primitives.BorderPrimitive)(this.panNavigationBarFooter.GetChildAt(0).GetChildAt(1))).Visibility = Telerik.WinControls.ElementVisibility.Collapsed;
-            // 
-            // object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd
-            // 
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.Name = "object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd";
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchHorizontally = true;
-            this.object_7e3691bc_8a3a_48b2_9666_3e9f2f771bfd.StretchVertically = true;
-            // 
-            // chkbChips
-            // 
-            this.chkbChips.Location = new System.Drawing.Point(21, 161);
-            this.chkbChips.Name = "chkbChips";
-            this.chkbChips.Size = new System.Drawing.Size(78, 18);
-            this.chkbChips.TabIndex = 20;
-            this.chkbChips.Text = "Extra Chips";
-            // 
-            // radLabel4
-            // 
-            this.radLabel4.Font = new System.Drawing.Font("Harabara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radLabel4.ForeColor = System.Drawing.Color.SlateBlue;
-            this.radLabel4.Location = new System.Drawing.Point(21, 12);
-            this.radLabel4.Name = "radLabel4";
-            this.radLabel4.Size = new System.Drawing.Size(143, 40);
-            this.radLabel4.TabIndex = 21;
-            this.radLabel4.Text = "Summary";
-            // 
-            // radCheckBox1
-            // 
-            this.radCheckBox1.Location = new System.Drawing.Point(21, 137);
-            this.radCheckBox1.Name = "radCheckBox1";
-            this.radCheckBox1.Size = new System.Drawing.Size(76, 18);
-            this.radCheckBox1.TabIndex = 22;
-            this.radCheckBox1.Text = "Extra Meat";
-            // 
-            // radLabel5
-            // 
-            this.radLabel5.Location = new System.Drawing.Point(21, 58);
-            this.radLabel5.Name = "radLabel5";
-            this.radLabel5.Size = new System.Drawing.Size(55, 18);
-            this.radLabel5.TabIndex = 23;
-            this.radLabel5.Text = "radLabel5";
-            // 
-            // radLabel6
-            // 
-            this.radLabel6.Location = new System.Drawing.Point(21, 82);
-            this.radLabel6.Name = "radLabel6";
-            this.radLabel6.Size = new System.Drawing.Size(55, 18);
-            this.radLabel6.TabIndex = 24;
-            this.radLabel6.Text = "radLabel6";
-            // 
-            // radLabel7
-            // 
-            this.radLabel7.Location = new System.Drawing.Point(21, 107);
-            this.radLabel7.Name = "radLabel7";
-            this.radLabel7.Size = new System.Drawing.Size(55, 18);
-            this.radLabel7.TabIndex = 25;
-            this.radLabel7.Text = "radLabel7";
-            // 
-            // radButton1
-            // 
-            this.radButton1.Location = new System.Drawing.Point(203, 425);
-            this.radButton1.Name = "radButton1";
-            this.radButton1.Size = new System.Drawing.Size(110, 24);
-            this.radButton1.TabIndex = 26;
-            this.radButton1.Text = "radButton1";
-            // 
             // vMainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 571);
+            this.ClientSize = new System.Drawing.Size(1272, 569);
             this.Controls.Add(this.panMain);
             this.Name = "vMainMenu";
             // 
@@ -842,23 +850,20 @@ namespace POS.New
             ((System.ComponentModel.ISupportInitialize)(this.panOrderRight)).EndInit();
             this.panOrderRight.ResumeLayout(false);
             this.panOrderRight.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkbMeat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chkbChips)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtTotal)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panOrderLeft)).EndInit();
             this.panOrderLeft.ResumeLayout(false);
             this.panOrderLeft.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSub3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQty3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSub2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQty2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSub1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAdd1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtQty1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnRoast)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnSmoked)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnChicken)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radLabel2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnChips)).EndInit();
@@ -874,6 +879,18 @@ namespace POS.New
             ((System.ComponentModel.ISupportInitialize)(this.panFooter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panNavigationBar)).EndInit();
             this.panNavigationBar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddToCart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSub3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAdd3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSub2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAdd2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSub1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAdd1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnRoast)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSmoked)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnChicken)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLogOut)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrderHistory)).EndInit();
@@ -883,15 +900,6 @@ namespace POS.New
             this.btnCollapse.ResumeLayout(false);
             this.btnCollapse.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.lblTitle)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarHeader)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panNavigationBarFooter)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chkbChips)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radCheckBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radLabel7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 
@@ -943,13 +951,13 @@ namespace POS.New
         private Telerik.WinControls.UI.RadButton btnSub2;
         private Telerik.WinControls.UI.RadButton btnAdd2;
         private Telerik.WinControls.UI.RadTextBox txtQty2;
-        private Telerik.WinControls.UI.RadCheckBox radCheckBox1;
+        private Telerik.WinControls.UI.RadCheckBox chkbMeat;
         private Telerik.WinControls.UI.RadLabel radLabel4;
         private Telerik.WinControls.UI.RadCheckBox chkbChips;
         private Telerik.WinControls.UI.RadLabel radLabel7;
         private Telerik.WinControls.UI.RadLabel radLabel6;
         private Telerik.WinControls.UI.RadLabel radLabel5;
-        private Telerik.WinControls.UI.RadButton radButton1;
+        private Telerik.WinControls.UI.RadButton btnAddToCart;
     }
 }
 

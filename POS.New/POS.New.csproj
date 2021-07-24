@@ -145,5 +145,8 @@
   <ItemGroup>
     <None Include="Resources\outline_add_black_24dp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_add_shopping_cart_white_24dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

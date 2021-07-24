@@ -62,6 +62,17 @@ namespace POS.New
             LogOut();
         }
 
+        private void btnMeat_Click(object sender, EventArgs e)
+        {
+            CheckMeat();
+        }
+
+        private void btnChips_Click(object sender, EventArgs e)
+        {
+            CheckChips();
+        }
+
+        #region Functions
         void HidePageDashboard()
         {
             rpvMenu.SelectedPage = idDashboard;
@@ -132,6 +143,30 @@ namespace POS.New
             }
         }
 
+        void CheckMeat()
+        {
+            if (chkbMeat.Checked)
+            {
+                chkbMeat.Checked = false;
+            }
+            else
+            {
+                chkbMeat.Checked = true;
+            }
+        }
+
+        void CheckChips()
+        {
+            if (chkbChips.Checked)
+            {
+                chkbChips.Checked = false;
+            }
+            else
+            {
+                chkbChips.Checked = true;
+            }
+        }
+
         void RemoveOutline()
         {
             btnCollapse.ButtonElement.ShowBorder = false;
@@ -141,6 +176,7 @@ namespace POS.New
             btnInventory.ButtonElement.ShowBorder = false;
             btnLogOut.ButtonElement.ShowBorder = false;
         }
+        #endregion
 
         #region BtnMouseColors
         private void btnCollapse_MouseEnter(object sender, EventArgs e)
@@ -262,6 +298,7 @@ namespace POS.New
         }
         #endregion
 
+        #region Add & Subtract
         private void btnAdd1_Click(object sender, EventArgs e)
         {
             counter1++;
@@ -309,5 +346,21 @@ namespace POS.New
             total = total - 69;
             txtTotal.Text = total.ToString();
         }
+
+        private void btnAddToCart_MouseEnter(object sender, EventArgs e)
+        {
+            btnAddToCart.Size = new Size(110, 39);
+            btnAddToCart.Text = "Add To Cart";
+            btnAddToCart.BackColor = Color.SlateBlue;
+        }
+
+        private void btnAddToCart_MouseLeave(object sender, EventArgs e)
+        {
+            btnAddToCart.Size = new Size(36, 39);
+            btnAddToCart.Text = "";
+            btnAddToCart.BackColor = Color.DarkSlateBlue;
+        }
+
+        #endregion
     }
 }
