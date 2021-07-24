@@ -14,6 +14,10 @@ namespace POS.New
     public partial class vMainMenu : Telerik.WinControls.UI.RadForm
     {
         #region Properties
+        public int counter1 = 0;
+        public int counter2 = 0;
+        public int counter3 = 0;
+        public int total { get; set; }
         public bool isCollapsed;
         #endregion
         public vMainMenu()
@@ -258,9 +262,52 @@ namespace POS.New
         }
         #endregion
 
-        private void btnChicken_MouseClick(object sender, MouseEventArgs e)
+        private void btnAdd1_Click(object sender, EventArgs e)
         {
+            counter1++;
+            txtQty1.Text = counter1.ToString();
+            total = total + 89;
+            txtTotal.Text = total.ToString();
+        }
 
+        private void btnSub1_Click(object sender, EventArgs e)
+        {
+            counter1--;
+            txtQty1.Text = counter1.ToString();
+            total = total - 89;
+            txtTotal.Text = total.ToString();
+        }
+
+        private void btnAdd2_Click(object sender, EventArgs e)
+        {
+            counter2++;
+            txtQty2.Text = counter2.ToString();
+            total = total + 69;
+            txtTotal.Text = total.ToString();
+        }
+
+        private void btnSub2_Click(object sender, EventArgs e)
+        {
+            counter2--;
+            txtQty2.Text = counter2.ToString();
+            total = total - 69;
+            txtTotal.Text = total.ToString();
+        }
+
+        private void btnAdd3_Click(object sender, EventArgs e)
+        {
+            counter3++;
+            txtQty3.Text = counter3.ToString();
+            total = total + 69;
+            txtTotal.Text = total.ToString();
+        }
+
+        private void btnSub3_Click(object sender, EventArgs e)
+        {
+            counter3--;
+            txtQty3.Text = counter3.ToString();
+            total = total - 69;
+            txtTotal.Text = total.ToString();
         }
     }
 }
