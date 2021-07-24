@@ -83,6 +83,16 @@ namespace POS.New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap outline_add_black_24dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_add_black_24dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap outline_dashboard_white_24dp {
             get {
                 object obj = ResourceManager.GetObject("outline_dashboard_white_24dp", resourceCulture);
@@ -146,6 +156,16 @@ namespace POS.New.Properties {
         internal static System.Drawing.Bitmap outline_point_of_sale_white_24dp {
             get {
                 object obj = ResourceManager.GetObject("outline_point_of_sale_white_24dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_remove_black_24dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_remove_black_24dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -139,5 +139,11 @@
   <ItemGroup>
     <None Include="Resources\Roast Beef New.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_remove_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_add_black_24dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

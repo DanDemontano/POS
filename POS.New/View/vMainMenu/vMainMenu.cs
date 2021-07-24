@@ -202,6 +202,7 @@ namespace POS.New
 
         #endregion
 
+        #region OrderSettings
         private void btnChicken_MouseEnter(object sender, EventArgs e)
         {
             btnChicken.Size = new Size(106, 106);
@@ -254,6 +255,12 @@ namespace POS.New
         {
             btnChips.Size = new Size(128, 48);
             btnChips.BackColor = Color.DarkSlateBlue;
+        }
+        #endregion
+
+        private void btnChicken_MouseClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }
