@@ -63,9 +63,9 @@ namespace POS.New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Chicken_Pesto {
+        internal static System.Drawing.Bitmap Chicken_Pesto_New {
             get {
-                object obj = ResourceManager.GetObject("Chicken_Pesto", resourceCulture);
+                object obj = ResourceManager.GetObject("Chicken_Pesto_New", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,19 @@ namespace POS.New.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Smoked_Turkey {
+        internal static System.Drawing.Bitmap Roast_Beef_New {
             get {
-                object obj = ResourceManager.GetObject("Smoked_Turkey", resourceCulture);
+                object obj = ResourceManager.GetObject("Roast_Beef_New", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Smoked_Turkey_New {
+            get {
+                object obj = ResourceManager.GetObject("Smoked_Turkey_New", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

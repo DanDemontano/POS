@@ -201,5 +201,59 @@ namespace POS.New
 
 
         #endregion
+
+        private void btnChicken_MouseEnter(object sender, EventArgs e)
+        {
+            btnChicken.Size = new Size(106, 106);
+        }
+
+        private void btnSmoked_MouseEnter(object sender, EventArgs e)
+        {
+            btnSmoked.Size = new Size(106, 106);
+        }
+
+        private void btnRoast_MouseEnter(object sender, EventArgs e)
+        {
+            btnRoast.Size = new Size(106, 106);
+        }
+
+        private void btnChicken_MouseLeave(object sender, EventArgs e)
+        {
+            btnChicken.Size = new Size(100, 100);
+        }
+
+        private void btnSmoked_MouseLeave(object sender, EventArgs e)
+        {
+            btnSmoked.Size = new Size(100, 100);
+        }
+
+        private void btnRoast_MouseLeave(object sender, EventArgs e)
+        {
+            btnRoast.Size = new Size(100, 100);
+        }
+
+        private void btnMeat_MouseEnter(object sender, EventArgs e)
+        {
+            btnMeat.Size = new Size(169, 48);
+            btnMeat.BackColor = Color.SlateBlue;
+        }
+
+        private void btnMeat_MouseLeave(object sender, EventArgs e)
+        {
+            btnMeat.Size = new Size(128, 48);
+            btnMeat.BackColor = Color.DarkSlateBlue;
+        }
+
+        private void btnChips_MouseEnter(object sender, EventArgs e)
+        {
+            btnChips.Size = new Size(169, 48);
+            btnChips.BackColor = Color.SlateBlue;
+        }
+
+        private void btnChips_MouseLeave(object sender, EventArgs e)
+        {
+            btnChips.Size = new Size(128, 48);
+            btnChips.BackColor = Color.DarkSlateBlue;
+        }
     }
 }

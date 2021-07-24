@@ -51,6 +51,11 @@
     <Reference Include="TelerikCommon, Version=2021.2.511.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="View\vLogIn\vLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,14 +79,9 @@
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -131,10 +131,13 @@
     <None Include="Resources\Daco_4363443.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Chicken Pesto.jpg" />
+    <None Include="Resources\Chicken Pesto New.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Smoked Turkey.jpg" />
+    <None Include="Resources\Smoked Turkey New.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Roast Beef New.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
